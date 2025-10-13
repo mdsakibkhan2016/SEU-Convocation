@@ -26,6 +26,8 @@
         </div>
     </section>
 
+    
+
     <section class="py-24 bg-white" data-aos="fade-up">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
