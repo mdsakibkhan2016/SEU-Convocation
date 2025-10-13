@@ -1,43 +1,43 @@
 <?php
 
 $chancellor = [
-    ["name" => "Mohammad Shamim Waheed", "Rep" => " ", "program" => "CSE", "id" => "2003200000001", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Anamul Haque", "Rep" => " ", "program" => "MA-IS", "id" => "2005020002101", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2006", "img" => "./img/default_profile.png"],
-    ["name" => "Salma Banu", "Rep" => " ", "program" => "MBA", "id" => "2005210003023", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
+    ["name" => "Mohammad Shamim Waheed", "Rep" => " ", "program" => "CSE", "id" => "2003200000001", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Mohammad Shamim Waheed.png"],
+    ["name" => "Md. Anamul Haque", "Rep" => " ", "program" => "MA-IS", "id" => "2005020002101", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2006", "img" => "../img/2nd_convo_merit_award_imgs/Md. Anamul Haque.png"],
+    ["name" => "Salma Banu", "Rep" => " ", "program" => "MBA", "id" => "2005210003023", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Salma Banu.png"],
 ];
 
 $viceChancellor = [
     // School of Science & Engineering
-    ["name" => "Md. Iftekhar Alam Ishaque", "Rep" => " ", "program" => "CSE", "id" => "2005000000009", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Amzad Hossain", "Rep" => " ", "program" => "CSE", "id" => "2003100000001", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Tania Akter", "Rep" => " ", "program" => "CSE", "id" => "2003100000008", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
+    ["name" => "Md. Iftekhar Alam Ishaque", "Rep" => " ", "program" => "CSE", "id" => "2005000000009", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Iftekhar Alam Ishaque.png"],
+    ["name" => "Mohammad Amzad Hossain", "Rep" => " ", "program" => "CSE", "id" => "2003100000001", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Mohammad Amzad Hossain.png"],
+    ["name" => "Tania Akter", "Rep" => " ", "program" => "CSE", "id" => "2003100000008", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Tania Akter.png"],
     // School of Arts & Social Sciences
-    ["name" => "Md. Mahbubul Alam", "Rep" => " ", "program" => "MA-IS", "id" => "2006142202003", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Abdul Awoul", "Rep" => " ", "program" => "MA-IS", "id" => "2007041002032", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Nurul Islam", "Rep" => " ", "program" => "BA-IS", "id" => "2003220000006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Rostam Ali", "Rep" => " ", "program" => "MA-IS", "id" => "2006041002036", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Iqbal Ahammed Khan", "Rep" => " ", "program" => "LLM (Final)", "id" => "2007020301005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
+    ["name" => "Md. Mahbubul Alam", "Rep" => " ", "program" => "MA-IS", "id" => "2006142202003", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Mahbubul Alam.png"],
+    ["name" => "Mohammad Abdul Awoul", "Rep" => " ", "program" => "MA-IS", "id" => "2007041002032", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Mohammad Abdul Awoul.png"],
+    ["name" => "Md. Nurul Islam", "Rep" => " ", "program" => "BA-IS", "id" => "2003220000006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Nurul Islam.png"],
+    ["name" => "Md. Rostam Ali", "Rep" => " ", "program" => "MA-IS", "id" => "2006041002036", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Rostam Ali.png"],
+    ["name" => "Iqbal Ahammed Khan", "Rep" => " ", "program" => "LLM (Final)", "id" => "2007020301005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Iqbal Ahammed Khan.png"],
     // School of Business Studies
-    ["name" => "Tahniyat Ahmed Karim", "Rep" => " ", "program" => "MBA", "id" => "2006010002018", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Manikur Rahman", "Rep" => " ", "program" => "MBA", "id" => "2006041003060", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Mahfuza Akther", "Rep" => " ", "program" => "MBA", "id" => "2005210003025", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Khaled Morshed Sabuz", "Rep" => " ", "program" => "MBA", "id" => "2007010001034", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Rumana Hasan", "Rep" => " ", "program" => "BBA", "id" => "2003010000114", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
+    ["name" => "Tahniyat Ahmed Karim", "Rep" => " ", "program" => "MBA", "id" => "2006010002018", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Tahniyat Ahmed Karim.png"],
+    ["name" => "Md. Manikur Rahman", "Rep" => " ", "program" => "MBA", "id" => "2006041003060", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Manikur Rahman.png"],
+    ["name" => "Mahfuza Akther", "Rep" => " ", "program" => "MBA", "id" => "2005210003025", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Mahfuza Akther.png"],
+    ["name" => "Md. Khaled Morshed Sabuz", "Rep" => " ", "program" => "MBA", "id" => "2007010001034", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Khaled Morshed Sabuz.png"],
+    ["name" => "Rumana Hasan", "Rep" => " ", "program" => "BBA", "id" => "2003010000114", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Rumana Hasan.png"],
 ];
 
 $dean = [
     // School of Arts & Social Sciences
-    ["name" => "Mohammad Jamal Uddin", "Rep" => " ", "program" => "MA-IS", "id" => "2006041002007", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Shahadat Hossain", "Rep" => " ", "program" => "LLM (Final)", "id" => "2007020301012", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Munir Iqbal Hamid", "Rep" => " ", "program" => "MA-IS", "id" => "2005220002004", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Jhuma Halder", "Rep" => " ", "program" => "LLM", "id" => "2005120303001", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Rubaiyet Aziz", "Rep" => " ", "program" => "B.Ed.", "id" => "2006020400003", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2006", "img" => "./img/default_profile.png"],
+    ["name" => "Mohammad Jamal Uddin", "Rep" => " ", "program" => "MA-IS", "id" => "2006041002007", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Mohammad Jamal Uddin.png"],
+    ["name" => "Shahadat Hossain", "Rep" => " ", "program" => "LLM (Final)", "id" => "2007020301012", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Shahadat Hossain.png"],
+    ["name" => "Md. Munir Iqbal Hamid", "Rep" => " ", "program" => "MA-IS", "id" => "2005220002004", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Munir Iqbal Hamid.png"],
+    ["name" => "Jhuma Halder", "Rep" => " ", "program" => "LLM", "id" => "2005120303001", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Jhuma Halder.png"],
+    ["name" => "Rubaiyet Aziz", "Rep" => " ", "program" => "B.Ed.", "id" => "2006020400003", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2006", "img" => "../img/2nd_convo_merit_award_imgs/Rubaiyet Aziz.png"],
     // School of Business Studies
-    ["name" => "Mohammad Harun Or Rashid", "Rep" => " ", "program" => "MBA", "id" => "2006210001006", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Sanzida Hossain Seema", "Rep" => " ", "program" => "BBA", "id" => "2003210000027", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Kazi Anwar-Ul Islam", "Rep" => " ", "program" => "MBA", "id" => "2005110003006", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Safiqul Islam", "Rep" => " ", "program" => "BBA", "id" => "2004010000128", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
-    ["name" => "* Sharmin Ferdous", "Rep" => " ", "program" => "BBA", "id" => "2004010000047", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "./img/default_profile.png"],
+    ["name" => "Mohammad Harun Or Rashid", "Rep" => " ", "program" => "MBA", "id" => "2006210001006", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Mohammad Harun Or Rashid.png"],
+    ["name" => "Sanzida Hossain Seema", "Rep" => " ", "program" => "BBA", "id" => "2003210000027", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Sanzida Hossain Seema.png"],
+    ["name" => "Kazi Anwar-Ul Islam", "Rep" => " ", "program" => "MBA", "id" => "2005110003006", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Kazi Anwar-Ul Islam.png"],
+    ["name" => "Md. Safiqul Islam", "Rep" => " ", "program" => "BBA", "id" => "2004010000128", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Md. Safiqul Islam.png"],
+    ["name" => "Sharmin Ferdous", "Rep" => " ", "program" => "BBA", "id" => "2004010000047", "medal" => "DM", "mobile" => " ", "type" => "Gold Medalists - 2007", "img" => "../img/2nd_convo_merit_award_imgs/Sharmin Ferdous.png"],
 ];
 
 
