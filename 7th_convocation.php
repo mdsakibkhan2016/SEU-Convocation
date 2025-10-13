@@ -48,7 +48,7 @@
                         </div>
 
                         <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/7th.png" alt="8th Convocation Logo"
+                            <img src="./img/All convocation logo/7th.png" alt="7th Convocation Logo"
                                 class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
                                 style="aspect-ratio: 1/1; object-fit: contain;">
                         </div>
@@ -92,7 +92,7 @@
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="800">
-                            <a href="/souvenir/8th-Convocation.php" target="_blank" rel="noopener noreferrer"
+                            <a href="/souvenir/7th-Convocation.php" target="_blank" rel="noopener noreferrer"
                                 class="flex items-center p-5 rounded-lg [background-color:rgb(37_109_182/var(--tw-bg-opacity))] dark:[background-color:rgb(32_95_158/var(--tw-bg-opacity))] text-gray-900 font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(117_167_233/var(--tw-bg-opacity))]">
                                 <span class="mr-4 text-3xl">&#128214;</span>
                                 <span class="text-lg">Souvenir</span>
