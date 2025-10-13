@@ -40,11 +40,12 @@
 
                 <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
 
-                    <div class="p-8 p-8 [background-color:rgb(51_115_206/var(--tw-bg-opacity))] dark:[background-color:rgb(43_98_177/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+                    <div class="p-8 [background-color:rgb(51_115_206/var(--tw-bg-opacity))] dark:[background-color:rgb(43_98_177/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-white dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
+                        <div class="flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 via-blue-500 to-yellow-400 rounded-xl shadow-lg py-8 px-6 mb-6 border-4 border-white dark:border-gray-800">
+                            <!-- Removed flag type icon SVG here -->
+                            <h3 class="text-2xl font-bold uppercase tracking-widest text-white dark:text-gray-900 mb-2 drop-shadow-lg">Ceremony Date</h3>
+                            <p class="text-5xl font-extrabold text-yellow-300 mb-4 drop-shadow-lg">
                                 10 May, 2006
                             </p>
                         </div>

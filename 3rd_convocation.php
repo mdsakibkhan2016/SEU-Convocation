@@ -41,11 +41,13 @@
 
                     <div class="p-8 [background-color:rgb(249_205_66/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-white dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
-                                24 May, 2014
-                            </p>
+                        <div class="flex flex-col items-center justify-center mb-6">
+                            <div class="bg-white rounded-lg shadow-md px-6 py-4">
+                                <h3 class="text-lg font-semibold text-gray-800 mb-1 tracking-wide">Convocation Date</h3>
+                                <p class="text-3xl font-bold text-blue-700 mb-2">24 May, 2014</p>
+                                <span class="block text-sm text-gray-500 italic">A milestone in your academic journey</span>
+                            </div>
+                            
                         </div>
 
                         <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">

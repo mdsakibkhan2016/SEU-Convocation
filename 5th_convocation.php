@@ -41,11 +41,14 @@
 
                     <div class="p-8 [background-color:rgb(245_171_58/var(--tw-bg-opacity))] dark:[background-color:rgb(220_150_45/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-gray-800 dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
-                                6 Feb, 2016
+                        <div class="text-center mb-8">
+                            <h3 class="text-2xl font-extrabold tracking-wide [color:rgb(245_171_58)] dark:[color:rgb(220_150_45)] uppercase mb-2 font-serif drop-shadow-lg">
+                                Ceremony Date
+                            </h3>
+                            <p class="text-4xl lg:text-5xl font-black [color:rgb(44_61_151)] dark:[color:rgb(36_50_130)] mb-2 font-sans tracking-tight drop-shadow-xl">
+                                6<sup class="text-xl align-super font-bold [color:rgb(245_171_58)] dark:[color:rgb(220_150_45)]">th</sup> February, 2016
                             </p>
+                            <div class="mx-auto mt-4 w-16 h-1 rounded-full [background-color:rgb(245_171_58)] dark:[background-color:rgb(220_150_45)] shadow-md"></div>
                         </div>
 
                         <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">

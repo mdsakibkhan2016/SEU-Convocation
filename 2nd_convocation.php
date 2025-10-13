@@ -41,11 +41,20 @@
 
                     <div class="p-8 [background-color:rgb(245_20_64/var(--tw-bg-opacity))] dark:[background-color:rgb(200_17_53/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-white dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
-                                12 May, 2008
-                            </p>
+                        <div class="flex flex-col items-center justify-center mb-8">
+                            <div class="relative">
+                                <div class="absolute inset-0 rounded-full blur-xl opacity-60" style="background: radial-gradient(circle, #f51440 0%, #f67f53 100%); width: 160px; height: 160px; z-index: 0;"></div>
+                                <div class="relative z-10 flex flex-col items-center">
+                                    <h3 class="text-xl font-bold uppercase tracking-wider text-white drop-shadow-lg mb-2 bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
+                                        Ceremony Date
+                                    </h3>
+                                    <p class="text-5xl font-extrabold text-white drop-shadow-xl mb-2 tracking-tight animate-pulse">
+                                        12 May, 2008
+                                    </p>
+                                
+                                </div>
+                            </div>
+                            
                         </div>
 
                         <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">

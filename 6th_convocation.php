@@ -41,11 +41,9 @@
 
                     <div class="p-8 [background-color:rgb(237_106_50/var(--tw-bg-opacity))] dark:[background-color:rgb(200_90_40/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-gray-800 dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
-                                21 March, 2017
-                            </p>
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-white mb-2">Ceremony Date</h3>
+                            <p class="text-3xl font-bold text-white mb-4">21 March, 2017</p>
                         </div>
 
                         <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
