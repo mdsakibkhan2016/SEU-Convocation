@@ -2,7 +2,7 @@
 
 $chancellor = [
     // School of Arts & Social Sciences
-    ["name" => "Mohammad Ali", "Rep" => " ", "program" => "MA-IS", "id" => " ", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2005", "img" => "./img/default_profile.png"],
+    ["name" => "Siam Ahmed", "Rep" => " ", "program" => "MA-IS", "id" => " ", "medal" => "CM", "mobile" => " ", "type" => "Gold Medalists - 2005", "img" => "./img/default_profile.png"],
 ];
 
 $viceChancellor = [
