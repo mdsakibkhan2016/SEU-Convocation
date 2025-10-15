@@ -77,7 +77,8 @@
                                         <path d="M320.3 192L235.7 51.1C229.2 40.3 215.6 36.4 204.4 42L117.8 85.3C105.9 91.2 101.1 105.6 107 117.5L176.6 256.6C146.5 290.5 128.3 335.1 128.3 384C128.3 490 214.3 576 320.3 576C426.3 576 512.3 490 512.3 384C512.3 335.1 494 290.5 464 256.6L533.6 117.5C539.5 105.6 534.7 91.2 522.9 85.3L436.2 41.9C425 36.3 411.3 40.3 404.9 51L320.3 192zM351.1 334.5C352.5 337.3 355.1 339.2 358.1 339.6L408.2 346.9C415.9 348 418.9 357.4 413.4 362.9L377.1 398.3C374.9 400.5 373.9 403.5 374.4 406.6L383 456.5C384.3 464.1 376.3 470 369.4 466.4L324.6 442.8C321.9 441.4 318.6 441.4 315.9 442.8L271.1 466.4C264.2 470 256.2 464.2 257.5 456.5L266.1 406.6C266.6 403.6 265.6 400.5 263.4 398.3L227.1 362.9C221.5 357.5 224.6 348.1 232.3 346.9L282.4 339.6C285.4 339.2 288.1 337.2 289.4 334.5L311.8 289.1C315.2 282.1 325.1 282.1 328.6 289.1L351 334.5z"/>
                                     </svg>
                                 </span>
-                                <!-- End of SVG for Medal Icon -->                                <span class="text-lg font-semibold">Gold Medalists</span>
+                                <!-- End of SVG for Medal Icon -->                                
+                                 <span class="text-lg font-semibold">Gold Medalists</span>
                             </a>
                         </li>
 
@@ -94,7 +95,8 @@
                                         </g>
                                     </svg>
                                     </span>
-                                <!-- End of SVG for Speech Icon -->                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <!-- End of SVG for Speech Icon -->                                
+                                 <span class="text-lg font-semibold">Dignitary SPEECHES</span>
                             </a>
                         </li>
 
@@ -112,20 +114,22 @@
                                         <path d="M512.8 319.4c17.1-9.8 36.5-15.4 57.2-15.4 61.9 0 112 50.1 112 112v47h-112v-32c0-44.3-19.9-84.4-57.2-111z"/>
                                     </svg>
                                 </span>
-                                <!-- End of SVG for Committee Icon -->                                 <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <!-- End of SVG for Committee Icon -->                 
+                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
                             </a>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="800">
                             <a href="/souvenir/7th-Convocation.php" target="_blank" rel="noopener noreferrer"
-                                class="flex items-center p-5 rounded-lg [background-color:rgb(106_33_112/var(--tw-bg-opacity))] dark:[background-color:rgb(115_32_120/var(--tw-bg-opacity))] text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(144_21_153/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">
+                                class="flex items-center p-5 rounded-lg [background-color:rgb(106_33_112/var(--tw-bg-opacity))] dark:[background-color:rgb(115_32_120/var(--tw-bg-opacity))] text-white font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(144_21_153/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">
                                 <!-- Using SVG for Book Icon -->
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor" class="w-8 h-8 transition-all duration-300 group-hover:text-gray-900">
                                         <path d="M320 205.3L320 514.6L320.5 514.4C375.1 491.7 433.7 480 492.8 480L512 480L512 160L492.8 160C450.6 160 408.7 168.4 369.7 184.6C352.9 191.6 336.3 198.5 320 205.3zM294.9 125.5L320 136L345.1 125.5C391.9 106 442.1 96 492.8 96L528 96C554.5 96 576 117.5 576 144L576 496C576 522.5 554.5 544 528 544L492.8 544C442.1 544 391.9 554 345.1 573.5L332.3 578.8C324.4 582.1 315.6 582.1 307.7 578.8L294.9 573.5C248.1 554 197.9 544 147.2 544L112 544C85.5 544 64 522.5 64 496L64 144C64 117.5 85.5 96 112 96L147.2 96C197.9 96 248.1 106 294.9 125.5z"/>
                                     </svg>
                                 </span>
-                                <!-- End of SVG for Book Icon -->                                 <span class="text-lg">Souvenir</span>
+                                <!-- End of SVG for Book Icon -->
+                                <span class="text-lg">Download Souvenir</span>
                             </a>
                         </li>
 
