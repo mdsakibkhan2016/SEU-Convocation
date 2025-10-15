@@ -1,36 +1,36 @@
 <?php
 
 $chancellor = [
-    ["name" => "Md. Ashaduzzaman Rubel Mondol", "program" => "ETE", "id" => "2008100100011", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Jannatul Ferdous", "program" => "BBA", "id" => "2009110000011", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
+    ["name" => "Md. Ashaduzzaman Rubel Mondol", "program" => "ETE", "id" => "2008100100011", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2015", "img" => "../img/4th_convo_merit_award_imgs/Md. Ashaduzzaman Rubel Mondol.png"],
+    ["name" => "Md. Aminur Rahman Turza", "Rep" => " ", "program" => "BBA", "id" => "2007210000082", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Md. Aminur Rahman Turza.png"],
+
    
 ];
 
 
 $viceChancellor = [
-    ["name" => "Shimon Rahman", "Rep" => " ", "program" => "Textile", "id" => "2008000400104", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Tababi Hossain", "Rep" => " ", "program" => "Textile", "id" => "2008000400102", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Adnan Ahmed Khan", "Rep" => " ", "program" => "Textile", "id" => "2008000400092", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Masud Rahman", "Rep" => " ", "program" => "BA-IS", "id" => "2007241000005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Nazmus Sakib", "Rep" => " ", "program" => "BA in English", "id" => "2007220200020", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Nasmin Jabin Noor", "Rep" => " ", "program" => "LLB (Hons)", "id" => "2007220300004", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Devjani Barua", "Rep" => " ", "program" => "M.Ed.", "id" => "2010120402004", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Aminur Rahman Turza", "Rep" => " ", "program" => "BBA", "id" => "2007210000082", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Marzia Sultana", "Rep" => " ", "program" => "BBA", "id" => "2008010000031", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Olipye Dutt", "Rep" => " ", "program" => "BBA", "id" => "2007210000094", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Prianka Datta", "Rep" => " ", "program" => "BBA", "id" => "2007210000095", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Rumana Akhter", "Rep" => " ", "program" => "MBA", "id" => "2010210005047", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Tofayel Ahmed", "Rep" => " ", "program" => "Textile", "id" => "2009000400066", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Mahmud -Ur-Rahman", "Rep" => " ", "program" => "Textile", "id" => "2008100400045", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Imran Hossain", "Rep" => " ", "program" => "Textile", "id" => "2009000400079", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Ahad Bin Ismail", "Rep" => " ", "program" => "BA-IS", "id" => "2009041000011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Nahida Sultana", "Rep" => " ", "program" => "LLB (Hons)", "id" => "2008120300031", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Nabila Sultana", "Rep" => " ", "program" => "BA in Eng", "id" => "2008120200030", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Nazmus Sakib", "Rep" => " ", "program" => "MA in Eng.", "id" => "2011220201007", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Jannatul Ferdous", "Rep" => " ", "program" => "BBA", "id" => "2009110000011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Priyanka Sharmin", "Rep" => " ", "program" => "BBA", "id" => "2009010000054", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Farhana Rifat", "Rep" => " ", "program" => "BBA", "id" => "2008010000134", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Mahfuzer Rahman", "Rep" => " ", "program" => "MBA F", "id" => "2011110005043", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "./img/default_profile.png"],
+    ["name" => "Shimon Rahman", "Rep" => " ", "program" => "Textile", "id" => "2008000400104", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Shimon Rahman.png"],
+    ["name" => "Tababi Hossain", "Rep" => " ", "program" => "Textile", "id" => "2008000400102", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Tababi Hossain.png"],
+    ["name" => "Adnan Ahmed Khan", "Rep" => " ", "program" => "Textile", "id" => "2008000400092", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Adnan Ahmed Khan.png"],
+    ["name" => "Md. Masud Rahman", "Rep" => " ", "program" => "BA-IS", "id" => "2007241000005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Md. Masud Rahman.png"],
+    ["name" => "Nazmus Sakib", "Rep" => " ", "program" => "BA in English", "id" => "2007220200020", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Nazmus Sakib.png"],
+    ["name" => "Nasmin Jabin Noor", "Rep" => " ", "program" => "LLB (Hons)", "id" => "2007220300004", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Nasmin Jabin Noor.png"],
+    ["name" => "Devjani Barua", "Rep" => " ", "program" => "M.Ed.", "id" => "2010120402004", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Devjani Barua.png"],
+    ["name" => "Jannatul Ferdous", "program" => "BBA", "id" => "2009110000011", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Jannatul Ferdous.png"],
+    ["name" => "Marzia Sultana", "Rep" => " ", "program" => "BBA", "id" => "2008010000031", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Marzia Sultana.png"],
+    ["name" => "Olipye Dutt", "Rep" => " ", "program" => "BBA", "id" => "2007210000094", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Olipye Dutt.png"],
+    ["name" => "Prianka Datta", "Rep" => " ", "program" => "BBA", "id" => "2007210000095", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Prianka Datta.png"],
+    ["name" => "Rumana Akhter", "Rep" => " ", "program" => "MBA", "id" => "2010210005047", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Rumana Akhter.png"],
+    ["name" => "Md. Tofayel Ahmed", "Rep" => " ", "program" => "Textile", "id" => "2009000400066", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Tofayel Ahmed.png"],
+    ["name" => "Md. Mahmud-Ur-Rahman", "Rep" => " ", "program" => "Textile", "id" => "2008100400045", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Mahmud-Ur-Rahman.png"],
+    ["name" => "Imran Hossain", "Rep" => " ", "program" => "Textile", "id" => "2009000400079", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Imran Hossain.png"],
+    ["name" => "Md. Ahad Bin Ismail", "Rep" => " ", "program" => "BA-IS", "id" => "2009041000011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Ahad Bin Ismail.png"],
+    ["name" => "Nahida Sultana", "Rep" => " ", "program" => "LLB (Hons)", "id" => "2008120300031", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Nahida Sultana.png"],
+    ["name" => "Nabila Sultana", "Rep" => " ", "program" => "BA in Eng", "id" => "2008120200030", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Nabila Sulatana.png"],
+    ["name" => "Nazmus Sakib", "Rep" => " ", "program" => "MA in Eng.", "id" => "2011220201007", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Nazmus Sakib.png"],
+    ["name" => "Priyanka Sharmin", "Rep" => " ", "program" => "BBA", "id" => "2009010000054", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Priyanka Sharmin.png"],
+    ["name" => "Farhana Rifat", "Rep" => " ", "program" => "BBA", "id" => "2008010000134", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Farhana Rifat.png"],
+    ["name" => "Md. Mahfuzer Rahman", "Rep" => " ", "program" => "MBA F", "id" => "2011110005043", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Mahfuzer Rahman.png"],
 
 ];
 
