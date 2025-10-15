@@ -32,7 +32,6 @@
                     </span>
                     Convocation
                 </h2>
-
             </header>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">

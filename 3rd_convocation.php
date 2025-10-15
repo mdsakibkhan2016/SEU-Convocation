@@ -37,24 +37,28 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
-                <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+                <div class="lg:col-span-4" data-aos="fade-right" data-aos-delay="100">
+    <div class="p-8 bg-gradient-to-br from-red-700 via-amber-600 to-yellow-500 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(249_205_66/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+        <span class="absolute top-4 left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-30 animate-pulse"></span>
+        <span class="absolute bottom-8 right-8 w-12 h-12 bg-red-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-white dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
-                                24 May, 2014
-                            </p>
-                        </div>
+        <div class="flex flex-col items-center justify-center mb-8 text-center">
+            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+            <p class="text-5xl font-extrabold text-white mb-2 drop-shadow-lg">
+                24 May, 2014
+            </p>
+            <span class="inline-block px-4 py-1 bg-white/90 text-red-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Saturday</span>
+        </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/3rd.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
-                        </div>
-                    </div>
-                </div>
+        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+            <img src="./img/All convocation logo/3rd.png" alt="3rd Convocation Logo"
+                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-yellow-300 object-contain transition-transform duration-300 hover:scale-105"
+                style="aspect-ratio: 1/1;">
+            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">3rd Convocation</span>
+        </div>
+    </div>
+</div>
 
                 <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="400">
 
@@ -139,6 +143,18 @@
             </div>
         </div>
     </section>
+
+    <style>
+    .hero-bg-pattern {
+        background-color: #f8fafc; /* bg-slate-50 */
+        background-image: radial-gradient(circle at 1px 1px, #e2e8f0 1px, transparent 0); /* slate-200 dots */
+        background-size: 1.5rem 1.5rem;
+    }
+    .dark .hero-bg-pattern {
+        background-color: #0f172a; /* bg-slate-900 */
+        background-image: radial-gradient(circle at 1px 1px, #334155 1px, transparent 0); /* slate-700 dots */
+    }
+</style>
 
                 <section class="premium-messages-section" id="messages">
         <div class="container mx-auto max-w-7xl">
