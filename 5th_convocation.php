@@ -38,23 +38,24 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
                 <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+                    <div class="p-8 bg-gradient-to-br from-blue-700 via-blue-600 to-orange-500 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(245_171_58/var(--tw-bg-opacity))] dark:[background-color:rgb(220_150_45/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+                        <span class="absolute top-4 left-4 w-8 h-8 bg-orange-300 rounded-full opacity-30 animate-pulse"></span>
+                        <span class="absolute bottom-8 right-8 w-12 h-12 bg-blue-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div class="text-center mb-8">
-                            <h3 class="text-2xl font-extrabold tracking-wide [color:rgb(245_171_58)] dark:[color:rgb(220_150_45)] uppercase mb-2 font-serif drop-shadow-lg">
-                                Ceremony Date
-                            </h3>
-                            <p class="text-4xl lg:text-5xl font-black [color:rgb(44_61_151)] dark:[color:rgb(36_50_130)] mb-2 font-sans tracking-tight drop-shadow-xl">
-                                6<sup class="text-xl align-super font-bold [color:rgb(245_171_58)] dark:[color:rgb(220_150_45)]">th</sup> February, 2016
+                        <div class="flex flex-col items-center justify-center mb-8 text-center">
+                            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+                            <p class="text-5xl font-extrabold text-orange-200 mb-2 drop-shadow-lg">
+                                6 February, 2016
                             </p>
-                            <div class="mx-auto mt-4 w-16 h-1 rounded-full [background-color:rgb(245_171_58)] dark:[background-color:rgb(220_150_45)] shadow-md"></div>
+                            <span class="inline-block px-4 py-1 bg-white/90 text-blue-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Saturday</span>
                         </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/5th.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
+                        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+                            <img src="./img/All convocation logo/5th.png" alt="5th Convocation Logo"
+                                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-green-400 object-contain transition-transform duration-300 hover:scale-105"
+                                style="aspect-ratio: 1/1;">
+                            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">5th Convocation</span>
                         </div>
                     </div>
                 </div>

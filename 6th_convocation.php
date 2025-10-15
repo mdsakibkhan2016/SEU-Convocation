@@ -37,22 +37,28 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
-                <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+            <div class="lg:col-span-4" data-aos="fade-left" data-aos-delay="200">
+    <div class="p-8 bg-gradient-to-br from-orange-800 via-orange-600 to-yellow-400 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(237_106_50/var(--tw-bg-opacity))] dark:[background-color:rgb(200_90_40/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+        <span class="absolute top-4 left-4 w-8 h-8 bg-lime-300 rounded-full opacity-30 animate-pulse"></span>
+        <span class="absolute bottom-8 right-8 w-12 h-12 bg-orange-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div class="text-center">
-                            <h3 class="text-lg font-semibold text-white mb-2">Ceremony Date</h3>
-                            <p class="text-3xl font-bold text-white mb-4">21 March, 2017</p>
-                        </div>
+        <div class="flex flex-col items-center justify-center mb-8 text-center">
+            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+            <p class="text-5xl font-extrabold text-amber-200 mb-2 drop-shadow-lg">
+                21 March, 2017
+            </p>
+            <span class="inline-block px-4 py-1 bg-white/90 text-teal-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Tuesday</span>
+        </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/6th.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
-                        </div>
-                    </div>
-                </div>
+        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+            <img src="./img/All convocation logo/6th.png" alt="6th Convocation Logo"
+                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-lime-400 object-contain transition-transform duration-300 hover:scale-105"
+                style="aspect-ratio: 1/1;">
+            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">6th Convocation</span>
+        </div>
+    </div>
+</div>        
 
                 <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="400">
 

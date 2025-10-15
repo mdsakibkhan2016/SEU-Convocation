@@ -38,25 +38,27 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
                 <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+    <div class="p-8 bg-gradient-to-br from-indigo-700 via-purple-600 to-fuchsia-500 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(97_89_147/var(--tw-bg-opacity))] dark:[background-color:rgb(80_73_130/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+        <span class="absolute top-4 left-4 w-8 h-8 bg-fuchsia-300 rounded-full opacity-30 animate-pulse"></span>
+        <span class="absolute bottom-8 right-8 w-12 h-12 bg-indigo-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6 border border-gray-300 dark:border-gray-700">
-                            <div class="mb-4 text-center">
-                                <h3 class="text-xl font-serif font-bold text-gray-800 dark:text-white">Ceremony Date</h3>
-                            </div>
-                            <div class="text-center">
-                                <span class="block text-3xl font-serif font-semibold text-gray-700 dark:text-yellow-300 mb-2">17 January, 2015</span>
-                            </div>
-                        </div>
+        <div class="flex flex-col items-center justify-center mb-8 text-center">
+            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+            <p class="text-5xl font-extrabold text-fuchsia-200 mb-2 drop-shadow-lg">
+                17 January, 2015
+            </p>
+            <span class="inline-block px-4 py-1 bg-white/90 text-indigo-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Saturday</span>
+        </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/4th.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
-                        </div>
-                    </div>
-                </div>
+        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+            <img src="./img/All convocation logo/4th.png" alt="4th Convocation Logo"
+                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-sky-300 object-contain transition-transform duration-300 hover:scale-105"
+                style="aspect-ratio: 1/1;">
+            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">4th Convocation</span>
+        </div>
+    </div>
+</div>
 
                 <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="400">
 

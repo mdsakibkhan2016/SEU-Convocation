@@ -64,6 +64,7 @@
                             <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">1st Convocation</span>
                         </div>
                     </div>
+                    
                 </div>
 
                 <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="400">
