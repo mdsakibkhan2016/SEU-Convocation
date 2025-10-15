@@ -173,23 +173,27 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
 
             <div class="lg:col-span-4" data-aos="fade-right" data-aos-delay="100">
-                <div class="p-8 bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-none">
-                    <div class="flex flex-col items-center justify-center mb-8 text-center">
-                        <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
-                        <p class="text-5xl font-extrabold text-white mb-2 drop-shadow-lg">
-                            24 May, 2014
-                        </p>
-                        <span class="inline-block px-4 py-1 bg-white/90 text-amber-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Saturday</span>
-                    </div>
+    <div class="p-8 bg-gradient-to-br from-red-700 via-amber-600 to-yellow-500 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
-                        <img src="./img/All convocation logo/3rd.png" alt="3rd Convocation Logo"
-                            class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-amber-300 object-contain transition-transform duration-300 hover:scale-105"
-                            style="aspect-ratio: 1/1;">
-                        <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">3rd Convocation</span>
-                    </div>
-                </div>
-            </div>
+        <span class="absolute top-4 left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-30 animate-pulse"></span>
+        <span class="absolute bottom-8 right-8 w-12 h-12 bg-red-900 rounded-full opacity-20 animate-bounce"></span>
+
+        <div class="flex flex-col items-center justify-center mb-8 text-center">
+            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+            <p class="text-5xl font-extrabold text-white mb-2 drop-shadow-lg">
+                24 May, 2014
+            </p>
+            <span class="inline-block px-4 py-1 bg-white/90 text-red-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Saturday</span>
+        </div>
+
+        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+            <img src="./img/All convocation logo/3rd.png" alt="3rd Convocation Logo"
+                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-yellow-300 object-contain transition-transform duration-300 hover:scale-105"
+                style="aspect-ratio: 1/1;">
+            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">3rd Convocation</span>
+        </div>
+    </div>
+</div>
 
             <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="200">
                 <p class="text-lg text-slate-600 dark:text-slate-400 max-w-4xl mb-10 leading-relaxed">
