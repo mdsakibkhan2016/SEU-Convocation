@@ -37,33 +37,28 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
-                <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+<div class="lg:col-span-4" data-aos="fade-left" data-aos-delay="200">
+    <div class="p-8 bg-gradient-to-br from-red-600 via-orange-500 to-amber-400 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(245_20_64/var(--tw-bg-opacity))] dark:[background-color:rgb(200_17_53/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+        <span class="absolute top-4 left-4 w-8 h-8 bg-white rounded-full opacity-30 animate-pulse"></span>
+        <span class="absolute bottom-8 right-8 w-12 h-12 bg-red-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div class="flex flex-col items-center justify-center mb-8">
-                            <div class="relative">
-                                <div class="absolute inset-0 rounded-full blur-xl opacity-60" style="background: radial-gradient(circle, #f51440 0%, #f67f53 100%); width: 160px; height: 160px; z-index: 0;"></div>
-                                <div class="relative z-10 flex flex-col items-center">
-                                    <h3 class="text-xl font-bold uppercase tracking-wider text-white drop-shadow-lg mb-2 bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
-                                        Ceremony Date
-                                    </h3>
-                                    <p class="text-5xl font-extrabold text-white drop-shadow-xl mb-2 tracking-tight animate-pulse">
-                                        12 May, 2008
-                                    </p>
-                                
-                                </div>
-                            </div>
-                            
-                        </div>
+        <div class="flex flex-col items-center justify-center mb-8 text-center">
+            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+            <p class="text-5xl font-extrabold text-white mb-2 drop-shadow-lg">
+                12 May, 2008
+            </p>
+            <span class="inline-block px-4 py-1 bg-white/90 text-red-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Monday</span>
+        </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/2nd.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
-                        </div>
-                    </div>
-                </div>
+        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+            <img src="./img/All convocation logo/2nd.png" alt="2nd Convocation Logo"
+                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-orange-300 object-contain transition-transform duration-300 hover:scale-105"
+                style="aspect-ratio: 1/1;">
+            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">2nd Convocation</span>
+        </div>
+    </div>
+</div>
 
                 <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="400">
 
