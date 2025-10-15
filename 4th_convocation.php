@@ -90,17 +90,13 @@
                             <a href="#messages"
                                 class="flex items-center p-5 rounded-lg [background-color:rgb(60_55_126/var(--tw-bg-opacity))] dark:[background-color:rgb(50_46_105/var(--tw-bg-opacity))] text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(105_94_173/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">
                                <!-- <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128227;</span> -->
-
                                 <!-- Using SVG for Speech Icon -->
-                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
-                                        <path d="M8 12h48a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H26l-9 9v-9H8a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z"/>
-                                        <path fill="currentColor" stroke="none" d="M24 28a5 5 0 1 0 4 2c-.3 3.5-2.5 6.5-5 8.9V36c2.6-1.6 4.6-4.3 5-8zM39 28a5 5 0 1 0 4 2c-.3 3.5-2.5 6.5-5 8.9V36c2.6-1.6 4.6-4.3 5-8z"/>
-                                    </svg>
-                                 </span>
-
+                                <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl transition-all duration-300 ease-in-out">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"  stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
+                                    <path d="M8 12h48a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H26l-9 9v-9H8a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z"/> <g transform="translate(20, 22)" fill="currentColor" stroke="none"> <path d="M6 5a2 2 0 0 1 2 2v5c0 2.7-1.4 4.4-3.7 5.4a1 1 0 1 1-.6-1.9c1.7-.4 2.3-1.4 2.3-3.2v-1H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/> <path d="M15 5a2 2 0 0 1 2 2v5c0 2.7-1.4 4.4-3.7 5.4a1 1 0 1 1-.6-1.9c1.7-.4 2.3-1.4 2.3-3.2v-1h-3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></g>
+                                </svg>
+                                </span>
                                 <!-- End of SVG for Speech Icon -->
-
                                 <span class="text-lg font-semibold">Dignitary SPEECHES</span>
                             </a>
                         </li>
