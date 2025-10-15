@@ -1,22 +1,22 @@
 <?php
 
 $chancellor = [
-    ["name" => "Iqbal Hossain", "program" => "BBA", "id" => "2006110000198", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2010", "img" => "./img/default_profile.png"],   
+    ["name" => "Iqbal Hossain", "program" => "BBA", "id" => "2006110000198", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2010", "img" => "../img/3rd_convo_merit_award_imgs/Iqbal Hossain.png"],   
 ];
 
 
 $viceChancellor = [
-    ["name" => "Nurul Huda Md. Masum", "Rep" => " ", "program" => "B.Pharm", "id" => "2006100300002", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "./img/default_profile.png"],
-    ["name" => "K.M. Faridul Hasan", "Rep" => " ", "program" => "Textile", "id" => "2006000400005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "./img/default_profile.png"],
-    ["name" => "Rakibul Alam", "Rep" => " ", "program" => "Textile", "id" => "2007000400052", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Faizur Razzaque", "Rep" => " ", "program" => "LLB", "id" => "2006120300044", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "./img/default_profile.png"],
-    ["name" => "Devjani Barua", "Rep" => " ", "program" => "B.Ed", "id" => "2009120400006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "./img/default_profile.png"],
-    ["name" => "Mst. Nasrin Sultana", "Rep" => " ", "program" => "LLB", "id" => "2006020300040", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "./img/default_profile.png"],
-    ["name" => "Tahsin Khan", "Rep" => " ", "program" => "LLB", "id" => "2006020300035", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "./img/default_profile.png"],
-    ["name" => "Kamrunnaher Sweety", "Rep" => " ", "program" => "BBA", "id" => "2005210000038", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Mesbaul Haque Nury", "Rep" => " ", "program" => "BBA", "id" => "2007010000143", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "./img/default_profile.png"],
-    ["name" => "Shaker Ahmed", "Rep" => " ", "program" => "BBA", "id" => "2006110000002", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Liaquat Hossain Molla", "Rep" => " ", "program" => "MBA", "id" => "2008041003123", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "./img/default_profile.png"],
+    ["name" => "Nurul Huda Md. Masum", "Rep" => " ", "program" => "B.Pharm", "id" => "2006100300002", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "../img/3rd_convo_merit_award_imgs/Nurul Huda Md. Masum.png"],
+    ["name" => "K M Faridul Hasan", "Rep" => " ", "program" => "Textile", "id" => "2006000400005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "../img/3rd_convo_merit_award_imgs/K M Faridul Hasan.png"],
+    ["name" => "Rakibul Alam", "Rep" => " ", "program" => "Textile", "id" => "2007000400052", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "../img/3rd_convo_merit_award_imgs/Rakibul Alam.png"],
+    ["name" => "Md. Faizur Razzaque", "Rep" => " ", "program" => "LLB", "id" => "2006120300044", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "../img/3rd_convo_merit_award_imgs/Md. Faizur Razzaque.png"],
+    ["name" => "Devjani Barua", "Rep" => " ", "program" => "B.Ed", "id" => "2009120400006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "../img/3rd_convo_merit_award_imgs/Devjani Barua.png"],
+    ["name" => "Mst. Nasrin Sultana", "Rep" => " ", "program" => "LLB", "id" => "2006020300040", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "../img/3rd_convo_merit_award_imgs/Mst. Nasrin Sultana.png"],
+    ["name" => "Tahsin Khan", "Rep" => " ", "program" => "LLB", "id" => "2006020300035", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "../img/3rd_convo_merit_award_imgs/Tahsin Khan.png"],
+    ["name" => "Kamrunnaher Sweety", "Rep" => " ", "program" => "BBA", "id" => "2005210000038", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "../img/3rd_convo_merit_award_imgs/Kamrunnaher Sweety.png"],
+    ["name" => "Md. Mesbahul Haque Nury", "Rep" => " ", "program" => "BBA", "id" => "2007010000143", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "../img/3rd_convo_merit_award_imgs/Md. Mesbahul Haque Nury.png"],
+    ["name" => "Shaker Ahmed", "Rep" => " ", "program" => "BBA", "id" => "2006110000002", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2010", "img" => "../img/3rd_convo_merit_award_imgs/Shaker Ahmed.png"],
+    ["name" => "Md. Liaquat Hossain Molla", "Rep" => " ", "program" => "MBA", "id" => "2008041003123", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2009", "img" => "../img/3rd_convo_merit_award_imgs/Md. Liaquat Hossain Molla.png"],
     
 ];
 // ../img/logos/Govt. Logo.png

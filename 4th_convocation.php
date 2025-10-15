@@ -91,11 +91,15 @@
                                 class="flex items-center p-5 rounded-lg [background-color:rgb(60_55_126/var(--tw-bg-opacity))] dark:[background-color:rgb(50_46_105/var(--tw-bg-opacity))] text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(105_94_173/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">
                                <!-- <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128227;</span> -->
                                 <!-- Using SVG for Speech Icon -->
-                                <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl transition-all duration-300 ease-in-out">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"  stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
-                                    <path d="M8 12h48a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H26l-9 9v-9H8a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z"/> <g transform="translate(20, 22)" fill="currentColor" stroke="none"> <path d="M6 5a2 2 0 0 1 2 2v5c0 2.7-1.4 4.4-3.7 5.4a1 1 0 1 1-.6-1.9c1.7-.4 2.3-1.4 2.3-3.2v-1H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/> <path d="M15 5a2 2 0 0 1 2 2v5c0 2.7-1.4 4.4-3.7 5.4a1 1 0 1 1-.6-1.9c1.7-.4 2.3-1.4 2.3-3.2v-1h-3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></g>
-                                </svg>
-                                </span>
+                                    <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl transition-all duration-300 ease-in-out">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"class="w-8 h-8">
+                                        <path d="M8 12h48a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H26l-9 9v-9H8a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z"/>
+                                        <g transform="translate(20, 22)" fill="currentColor" stroke="none">
+                                        <path d="M6 5a2 2 0 0 1 2 2v5c0 2.7-1.4 4.4-3.7 5.4a1 1 0 1 1-.6-1.9c1.7-.4 2.3-1.4 2.3-3.2v-1H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/>
+                                        <path d="M15 5a2 2 0 0 1 2 2v5c0 2.7-1.4 4.4-3.7 5.4a1 1 0 1 1-.6-1.9c1.7-.4 2.3-1.4 2.3-3.2v-1h-3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/>
+                                        </g>
+                                    </svg>
+                                    </span>
                                 <!-- End of SVG for Speech Icon -->
                                 <span class="text-lg font-semibold">Dignitary SPEECHES</span>
                             </a>
@@ -124,19 +128,19 @@
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="800">
-                            <a href="/souvenir/8th-Convocation.php" target="_blank" rel="noopener noreferrer"
-                            class="flex items-center p-5 rounded-lg [background-color:rgb(60_55_126/var(--tw-bg-opacity))] dark:[background-color:rgb(50_46_105/var(--tw-bg-opacity))] text-white font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02]  hover:[background-color:rgb(105_94_173/var(--tw-bg-opacity))] group">    
+                            <a href="/souvenir/4th-Convocation.php" target="_blank" rel="noopener noreferrer"
+                            class="flex items-center p-5 rounded-lg [background-color:rgb(60_55_126/var(--tw-bg-opacity))] dark:[background-color:rgb(50_46_105/var(--tw-bg-opacity))] text-white font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02]  hover:[background-color:rgb(105_94_173/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">   
                                 <!-- <span class="mr-4 text-3xl">&#128214;</span> -->
-
+                                
                                 <!-- Using SVG for Book Icon -->
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor" class="w-8 h-8 transition-all duration-300 group-hover:text-gray-900">
                                         <path d="M320 205.3L320 514.6L320.5 514.4C375.1 491.7 433.7 480 492.8 480L512 480L512 160L492.8 160C450.6 160 408.7 168.4 369.7 184.6C352.9 191.6 336.3 198.5 320 205.3zM294.9 125.5L320 136L345.1 125.5C391.9 106 442.1 96 492.8 96L528 96C554.5 96 576 117.5 576 144L576 496C576 522.5 554.5 544 528 544L492.8 544C442.1 544 391.9 554 345.1 573.5L332.3 578.8C324.4 582.1 315.6 582.1 307.7 578.8L294.9 573.5C248.1 554 197.9 544 147.2 544L112 544C85.5 544 64 522.5 64 496L64 144C64 117.5 85.5 96 112 96L147.2 96C197.9 96 248.1 106 294.9 125.5z"/>
                                     </svg>
                                 </span>
-                                <!-- End of SVG for Book Icon -->  
+                                <!-- End of SVG for Book Icon --> 
                                  
-                                <span class="text-lg">Souvenir</span>
+                                <span class="text-lg">Download Souvenir</span>
                             </a>
                         </li>
 
