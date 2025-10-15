@@ -22,37 +22,46 @@
 
 
 
-            <header class="mb-16">
-                <p class="text-lg font-light tracking-widest uppercase text-gray-700 dark:text-gray-300" data-aos="fade-right" data-aos-delay="50">
-                    A Defining Moment
-                </p>
-                <h2 class="text-6xl lg:text-7xl font-black text-gray-900 dark:text-white mt-1" data-aos="fade-right" data-aos-delay="150">
-                    The
-                    <span class="[color:rgb(51_115_206/var(--tw-text-opacity))] dark:[color:rgb(43_98_177/var(--tw-text-opacity))]">
-                        1<sup class="text-4xl align-super">st</sup>
-                    </span>
-                    Convocation
-                </h2>
-
-            </header>
+            <header class="mb-16" data-aos="fade-up">
+    <p class="text-base font-semibold tracking-widest uppercase text-blue-600 dark:text-blue-400">
+        A Defining Moment
+    </p>
+    <h1 class="text-6xl lg:text-7xl font-black text-gray-900 dark:text-white mt-2">
+        The
+        <span class="text-blue-600 dark:text-blue-400">
+            1<sup class="text-3xl lg:text-4xl -top-4 lg:-top-6">st</sup>
+        </span>
+        Convocation
+    </h1>
+</header>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
                 <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+                    <div class="p-8 bg-gradient-to-br from-blue-700 via-blue-500 to-yellow-400 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-gray-0 relative overflow-hidden">
 
-                    <div class="p-8 p-8 [background-color:rgb(51_115_206/var(--tw-bg-opacity))] dark:[background-color:rgb(43_98_177/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+                        <!-- Decorative floating shapes -->
+                        <span class="absolute top-4 left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-30 animate-pulse"></span>
+                        <span class="absolute bottom-8 right-8 w-12 h-12 bg-blue-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-white dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
+                        <div class="flex flex-col items-center justify-center mb-8">
+                            <!-- <div class="flex items-center justify-center mb-4">
+                                <svg class="w-10 h-10 text-yellow-300 drop-shadow-lg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m9-9H3" />
+                                </svg>
+                            </div> -->
+                            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg text-center">Ceremony Date</h3>
+                            <p class="text-5xl font-extrabold text-yellow-200 mb-2 drop-shadow-lg text-center">
                                 10 May, 2006
                             </p>
+                            <span class="inline-block px-4 py-1 bg-white/80 text-blue-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Wednesday</span>
                         </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/1st.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
+                        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+                            <img src="./img/All convocation logo/1st.png" alt="1st Convocation Logo"
+                                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-yellow-300 object-contain transition-transform duration-300 hover:scale-105"
+                                style="aspect-ratio: 1/1;">
+                            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">1st Convocation</span>
                         </div>
                     </div>
                 </div>

@@ -48,7 +48,7 @@
                         </div>
 
                         <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/7th.png" alt="8th Convocation Logo"
+                            <img src="./img/All convocation logo/7th.png" alt="7th Convocation Logo"
                                 class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
                                 style="aspect-ratio: 1/1; object-fit: contain;">
                         </div>
