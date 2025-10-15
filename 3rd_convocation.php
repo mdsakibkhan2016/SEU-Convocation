@@ -14,7 +14,7 @@
     <?php include("includes/nav.php"); ?>
 
 
-    <!-- <section class="convocation-section py-28 md:py-40 bg-gray-100 dark:bg-gray-900 relative overflow-hidden" data-aos="fade-up">
+    <section class="convocation-section py-28 md:py-40 bg-gray-100 dark:bg-gray-900 relative overflow-hidden" data-aos="fade-up">
 
 
         <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
@@ -37,26 +37,28 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
-                <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+                <div class="lg:col-span-4" data-aos="fade-right" data-aos-delay="100">
+    <div class="p-8 bg-gradient-to-br from-red-700 via-amber-600 to-yellow-500 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(249_205_66/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+        <span class="absolute top-4 left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-30 animate-pulse"></span>
+        <span class="absolute bottom-8 right-8 w-12 h-12 bg-red-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div class="flex flex-col items-center justify-center mb-6">
-                            <div class="bg-white rounded-lg shadow-md px-6 py-4">
-                                <h3 class="text-lg font-semibold text-gray-800 mb-1 tracking-wide">Convocation Date</h3>
-                                <p class="text-3xl font-bold text-blue-700 mb-2">24 May, 2014</p>
-                                <span class="block text-sm text-gray-500 italic">A milestone in your academic journey</span>
-                            </div>
-                            
-                        </div>
+        <div class="flex flex-col items-center justify-center mb-8 text-center">
+            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+            <p class="text-5xl font-extrabold text-white mb-2 drop-shadow-lg">
+                24 May, 2014
+            </p>
+            <span class="inline-block px-4 py-1 bg-white/90 text-red-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Saturday</span>
+        </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/3rd.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
-                        </div>
-                    </div>
-                </div>
+        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+            <img src="./img/All convocation logo/3rd.png" alt="3rd Convocation Logo"
+                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-yellow-300 object-contain transition-transform duration-300 hover:scale-105"
+                style="aspect-ratio: 1/1;">
+            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">3rd Convocation</span>
+        </div>
+    </div>
+</div>
 
                 <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="400">
 
@@ -140,7 +142,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <style>
     .hero-bg-pattern {
@@ -153,95 +155,6 @@
         background-image: radial-gradient(circle at 1px 1px, #334155 1px, transparent 0); /* slate-700 dots */
     }
 </style>
-
-<section class="convocation-section py-28 md:py-40 relative overflow-hidden hero-bg-pattern" data-aos="fade-up">
-    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
-
-        <header class="mb-16 text-center" data-aos="fade-up">
-            <p class="text-base font-semibold tracking-widest uppercase text-amber-600 dark:text-amber-400">
-                A Defining Moment
-            </p>
-            <h1 class="text-6xl lg:text-7xl font-black text-slate-900 dark:text-black mt-2">
-                The
-                <span class="text-amber-500">
-                    3<sup class="text-3xl lg:text-4xl -top-4 lg:-top-6">rd</sup>
-                </span>
-                Convocation
-            </h1>
-        </header>
-
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-
-            <div class="lg:col-span-4" data-aos="fade-right" data-aos-delay="100">
-    <div class="p-8 bg-gradient-to-br from-red-700 via-amber-600 to-yellow-500 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
-
-        <span class="absolute top-4 left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-30 animate-pulse"></span>
-        <span class="absolute bottom-8 right-8 w-12 h-12 bg-red-900 rounded-full opacity-20 animate-bounce"></span>
-
-        <div class="flex flex-col items-center justify-center mb-8 text-center">
-            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
-            <p class="text-5xl font-extrabold text-white mb-2 drop-shadow-lg">
-                24 May, 2014
-            </p>
-            <span class="inline-block px-4 py-1 bg-white/90 text-red-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Saturday</span>
-        </div>
-
-        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
-            <img src="./img/All convocation logo/3rd.png" alt="3rd Convocation Logo"
-                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-yellow-300 object-contain transition-transform duration-300 hover:scale-105"
-                style="aspect-ratio: 1/1;">
-            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">3rd Convocation</span>
-        </div>
-    </div>
-</div>
-
-            <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="200">
-                <p class="text-lg text-slate-600 dark:text-slate-400 max-w-4xl mb-10 leading-relaxed">
-                    This momentous occasion celebrated the academic achievements of our graduates, marking the commencement of their professional careers and global contributions.
-                </p>
-
-                <h3 class="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-6 border-b-2 border-slate-200 dark:border-slate-700 pb-3">
-                    Exclusive Program Resources
-                </h3>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                    <a href="#gold-medalists" data-aos="fade-up" data-aos-delay="300" class="group flex items-center p-5 rounded-xl bg-white dark:bg-slate-800 shadow-md hover:shadow-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition duration-300 transform hover:-translate-y-1 border border-slate-200 dark:border-slate-700">
-                        <div class="p-3 bg-amber-100 dark:bg-amber-900/50 rounded-lg mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-amber-500 dark:text-amber-400" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                            </svg>
-                        </div>
-                        <span class="text-lg font-semibold text-slate-800 dark:text-slate-200">Gold Medalists</span>
-                    </a>
-                    <a href="#messages" data-aos="fade-up" data-aos-delay="400" class="group flex items-center p-5 rounded-xl bg-white dark:bg-slate-800 shadow-md hover:shadow-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition duration-300 transform hover:-translate-y-1 border border-slate-200 dark:border-slate-700">
-                        <div class="p-3 bg-amber-100 dark:bg-amber-900/50 rounded-lg mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-amber-500 dark:text-amber-400" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M10 2a6 6 0 00-6 6v3.586l-1.707 1.707A1 1 0 003 15v1a1 1 0 001 1h12a1 1 0 001-1v-1a1 1 0 00-.293-.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
-                            </svg>
-                        </div>
-                        <span class="text-lg font-semibold text-slate-800 dark:text-slate-200">Dignitary Speeches</span>
-                    </a>
-                    <a href="#committee" data-aos="fade-up" data-aos-delay="500" class="group flex items-center p-5 rounded-xl bg-white dark:bg-slate-800 shadow-md hover:shadow-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition duration-300 transform hover:-translate-y-1 border border-slate-200 dark:border-slate-700">
-                        <div class="p-3 bg-amber-100 dark:bg-amber-900/50 rounded-lg mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-amber-500 dark:text-amber-400" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
-                            </svg>
-                        </div>
-                        <span class="text-lg font-semibold text-slate-800 dark:text-slate-200">Organizing Committee</span>
-                    </a>
-                    <a href="/souvenir/3rd-Convocation.php" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="600" class="group flex items-center p-5 rounded-xl bg-white dark:bg-slate-800 shadow-md hover:shadow-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition duration-300 transform hover:-translate-y-1 border border-slate-200 dark:border-slate-700">
-                        <div class="p-3 bg-amber-100 dark:bg-amber-900/50 rounded-lg mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-amber-500 dark:text-amber-400" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 16c1.255 0 2.443-.29 3.5-.804V4.804zM14.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 0114.5 16c1.255 0 2.443-.29 3.5-.804v-10A7.968 7.968 0 0014.5 4z" />
-                            </svg>
-                        </div>
-                        <span class="text-lg font-semibold text-slate-800 dark:text-slate-200">View Souvenir</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
                 <section class="premium-messages-section" id="messages">
         <div class="container mx-auto max-w-7xl">
