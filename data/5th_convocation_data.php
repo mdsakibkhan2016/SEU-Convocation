@@ -1,36 +1,35 @@
 <?php
 
 $chancellor = [
-    ["name" => "Md. Aynul Islam", "program" => "CSE", "id" => "2009200000023", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Sumaiya Akhter", "program" => "BA-IS", "id" => "2010220000015", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
+    ["name" => "Md. Aynul Islam", "program" => "CSE", "id" => "2009200000023", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Aynul Islam.png"],
+    ["name" => "Sumaiya Akhter", "program" => "BA-IS", "id" => "2010220000015", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Sumaiya Akhter.png"],
 
 ];
 
 
 $viceChancellor = [
-    ["name" => "Md. Salim Azad Didar", "Rep" => " ", "program" => "Textile", "id" => "2010000400038", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Nahid Pervez", "Rep" => " ", "program" => "Textile", "id" => "2010000400098", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Mostakim Meraz", "Rep" => " ", "program" => "Textile", "id" => "2010000400096", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Abu Bakar", "Rep" => " ", "program" => "BA-IS", "id" => "2010020000006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Rabeya Begum", "Rep" => " ", "program" => "LLB", "id" => "2010020300057", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Fahamidul Hasan Bappy", "Rep" => " ", "program" => "LLB", "id" => "2010020300043", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Ahad Bin Ismail", "Rep" => " ", "program" => "MA-IS", "id" => "2013020002011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Kazi Haneeya Wahed", "Rep" => " ", "program" => "BBA", "id" => "2009110000099", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Badrul Alam Chowdhury", "Rep" => " ", "program" => "BBA", "id" => "2010010000227", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Ummay Kulsum", "Rep" => " ", "program" => "BBA", "id" => "2010010000215", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Shaikhul Islam", "Rep" => " ", "program" => "MBA", "id" => "2011210005172", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "./img/default_profile.png"],
-    ["name" => "Rumana Yasmin", "Rep" => " ", "program" => "ETE", "id" => "2010100100011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Sourav Kumar Das", "Rep" => " ", "program" => "Textile", "id" => "2010100400012", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Pronita Ghosh Abir", "Rep" => " ", "program" => "Textile", "id" => "2011000400047", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "S. M. Razib Hassan", "Rep" => " ", "program" => "BA in Eng", "id" => "2010220200001", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Arifa Rahman", "Rep" => " ", "program" => "BA in Eng", "id" => "2010220200005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Nazmun Nahar", "Rep" => " ", "program" => "Economics", "id" => "2011020106029", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Syed-Ur-Rahman", "Rep" => " ", "program" => "MDS", "id" => "2013220100009", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Mahiya Mohosi Mou", "Rep" => " ", "program" => "BBA", "id" => "2011010000276", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Tanjin Ahmed Rabby", "Rep" => " ", "program" => "BBA", "id" => "2011010000172", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Taijul Islam", "Rep" => " ", "program" => "BBA", "id" => "2011010000095", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Badrul Alam Chowdhury", "Rep" => " ", "program" => "MBA-1y", "id" => "2014010004100", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "./img/default_profile.png"],
-
+    ["name" => "Kazi Haneeya Wahed", "Rep" => " ", "program" => "BBA", "id" => "2009110000099", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Kazi Haneeya Wahed.png"],
+    ["name" => "Md. Badrul Alam Chowdhury", "Rep" => " ", "program" => "BBA", "id" => "2010010000227", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Badrul Alam Chowdhury.png"],
+    ["name" => "Ummay Kulsum", "Rep" => " ", "program" => "BBA", "id" => "2010010000215", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Ummay Kulsum.png"],
+    ["name" => "Mahiya Mohosi Mou", "Rep" => " ", "program" => "BBA", "id" => "2011010000276", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Mahiya Mohosi Mou.png"],
+    ["name" => "Md. Tanjin Ahmed Rabby", "Rep" => " ", "program" => "BBA", "id" => "2011010000172", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Md. Tanjin Ahmed Rabby.png"],
+    ["name" => "Taijul Islam", "Rep" => " ", "program" => "BBA", "id" => "2011010000095", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Taijul Islam.png"],
+    ["name" => "Md. Salim Azad Didar", "Rep" => " ", "program" => "Textile", "id" => "2010000400038", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Salim Azad Didar.png"],
+    ["name" => "Md. Nahid Pervez", "Rep" => " ", "program" => "Textile", "id" => "2010000400098", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Nahid Pervez.png"],
+    ["name" => "Md. Mostakim Meraz", "Rep" => " ", "program" => "Textile", "id" => "2010000400096", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Mostakim Meraz.png"],
+    ["name" => "Rumana Yasmin", "Rep" => " ", "program" => "ETE", "id" => "2010100100011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Rumana Yasmin.png"],
+    ["name" => "Sourav Kumar Das", "Rep" => " ", "program" => "Textile", "id" => "2010100400012", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Sourav Kumar Das.png"],
+    ["name" => "Pronita Ghosh Abir", "Rep" => " ", "program" => "Textile", "id" => "2011000400047", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Pronita Ghosh Abir.png"],
+    ["name" => "Md. Abu Bakar", "Rep" => " ", "program" => "BA-IS", "id" => "2010020000006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Abu Bakar.png"],
+    ["name" => "Rabeya Begum", "Rep" => " ", "program" => "LLB", "id" => "2010020300057", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Rabeya Begum.png"],
+    ["name" => "Fahamidul Hasan Bappy", "Rep" => " ", "program" => "LLB", "id" => "2010020300043", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Fahamidul Hasan Bappy.png"],
+    ["name" => "S. M. Razib Hassan", "Rep" => " ", "program" => "BA in Eng", "id" => "2010220200001", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/S. M. Razib Hassan.png"],
+    ["name" => "Arifa Rahman", "Rep" => " ", "program" => "BA in Eng", "id" => "2010220200005", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Arifa Rahman.png"],
+    ["name" => "Nazmun Nahar", "Rep" => " ", "program" => "Economics", "id" => "2011020106029", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Nazmun Nahar.png"],
+    ["name" => "Md. Shaikhul Islam", "Rep" => " ", "program" => "MBA", "id" => "2011210005172", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Shaikhul Islam.png"],
+    ["name" => "Md. Ahad Bin Ismail", "Rep" => " ", "program" => "MA-IS", "id" => "2013020002011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2013", "img" => "../img/5th_convo_merit_award_imgs/Md. Ahad Bin Ismail.png"],
+    ["name" => "Mohammad Badrul Alam Chowdhury", "Rep" => " ", "program" => "MBA-1y", "id" => "2014010004100", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2014", "img" => "../img/5th_convo_merit_award_imgs/Mohammad Badrul Alam Chowdhury.png"],
+    ["name" => "Md. Syed-Ur-Rahman", "Rep" => "",  "program" => 	"MDS",	"id"	=>	"2013220100009","medal"=>	"VCM","mobile"=>	"",	"type"=>	"Gold Medalists - 2014","img"=>	"../img/5th_convo_merit_award_imgs/Md. Syed-Ur-Rahman.png"],
 ];
 
 
