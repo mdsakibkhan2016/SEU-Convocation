@@ -108,7 +108,7 @@
                                     </svg>
                                     </span>
                                 <!-- End of SVG for Speech Icon -->
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -127,7 +127,7 @@
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Committee Icon -->  
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
@@ -263,7 +263,7 @@
         <section class="committee-section-v3" id="committee">
         <div class="container mx-auto max-w-7xl">
             <div class="text-center">
-                <h2 class="section-title-v3">ORGANIZING COMMITTEES</h2>
+                <h2 class="section-title-v3">Organizing CommitteeS</h2>
                 <p class="section-subtitle-v3">The dedicated individuals who worked to make this event a success.</p>
             </div>
 

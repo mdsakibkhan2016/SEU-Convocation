@@ -101,7 +101,7 @@
                                         </svg>
                                     </span>
                                  <!-- End of SVG for Speech Icon -->
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -120,7 +120,7 @@
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Committee Icon -->  
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 

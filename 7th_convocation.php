@@ -37,20 +37,24 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
                 <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+                    <div class="p-8 bg-gradient-to-br from-purple-700 via-fuchsia-600 to-pink-500 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(135_37_141/var(--tw-bg-opacity))] dark:[background-color:rgb(115_32_120/var(--tw-bg-opacity))] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+                        <span class="absolute top-4 left-4 w-8 h-8 bg-pink-300 rounded-full opacity-30 animate-pulse"></span>
+                        <span class="absolute bottom-8 right-8 w-12 h-12 bg-purple-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-white dark:text-white mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
-                                21th July, 2022
+                        <div class="flex flex-col items-center justify-center mb-8 text-center">
+                            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+                            <p class="text-5xl font-extrabold text-pink-200 mb-2 drop-shadow-lg">
+                                21st July, 2022
                             </p>
+                            <span class="inline-block px-4 py-1 bg-white/90 text-purple-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Thursday</span>
                         </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
+                        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
                             <img src="./img/All convocation logo/7th.png" alt="7th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
+                                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-pink-300 object-contain transition-transform duration-300 hover:scale-105"
+                                style="aspect-ratio: 1/1;">
+                            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">7th Convocation</span>
                         </div>
                     </div>
                 </div>
@@ -96,7 +100,7 @@
                                     </svg>
                                     </span>
                                 <!-- End of SVG for Speech Icon -->                                
-                                 <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                 <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -115,7 +119,7 @@
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Committee Icon -->                 
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
@@ -185,7 +189,7 @@
                         <li data-aos="fade-up" data-aos-delay="600">
                             <a href="#committee"
                                 class="block p-6 rounded-lg bg-white dark:bg-gray-800 shadow-lg text-gray-800 dark:text-gray-200 font-semibold border-b-4 [border-color:rgb(69_156_217/var(--tw-bg-opacity))] hover:[background-color:rgb(202_138_4/0.1)] dark:hover:[background-color:rgb(180_120_5/0.1)] transition duration-300 transform hover:-translate-y-1">
-                                <span class="[color:rgb(60_83_163/var(--tw-text-opacity))] dark:[color:rgb(45_65_135/var(--tw-text-opacity))] text-3xl mb-1 block">👥</span> Organizing COMMITTEE
+                                <span class="[color:rgb(60_83_163/var(--tw-text-opacity))] dark:[color:rgb(45_65_135/var(--tw-text-opacity))] text-3xl mb-1 block">👥</span> Organizing Committee
                             </a>
                         </li>
 
@@ -288,7 +292,7 @@
                             <a href="#committee"
                                 class="flex items-center p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-medium shadow-sm hover:shadow-lg hover:bg-blue-50 dark:hover:bg-gray-700 hover:border-blue-500 transition duration-300 transform hover:-translate-y-1">
                                 <span class="text-blue-600 mr-3 text-2xl">&#128101;</span>
-                                Organizing COMMITTEE
+                                Organizing Committee
                             </a>
                         </li>
 
