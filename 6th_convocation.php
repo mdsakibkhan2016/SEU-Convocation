@@ -101,7 +101,7 @@
                                     </svg>
                                     </span>
                                 <!-- End of SVG for Speech Icon -->
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -120,7 +120,7 @@
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Committee Icon --> 
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
@@ -231,7 +231,7 @@
                             <a href="#messages"
                                 class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-gray-900 font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
                                 <span class="text-gray-900 mr-4 text-3xl">&#128227;</span>
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -239,7 +239,7 @@
                             <a href="#committee"
                                 class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-gray-900 font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
                                 <span class="text-gray-900 mr-4 text-3xl">&#128101;</span>
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
@@ -325,7 +325,7 @@
                             <a href="#committee"
                                 class="flex items-center p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-medium shadow-sm hover:shadow-lg hover:bg-blue-50 dark:hover:bg-gray-700 hover:border-blue-500 transition duration-300 transform hover:-translate-y-1">
                                 <span class="text-blue-600 mr-3 text-2xl">&#128101;</span>
-                                Organizing COMMITTEE
+                                Organizing Committee
                             </a>
                         </li>
 

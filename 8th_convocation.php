@@ -184,7 +184,7 @@
                     
                     <li data-aos="fade-left" data-aos-delay="900">
                         <a href="#committee" class="block p-4 rounded-lg bg-indigo-700/50 hover:bg-indigo-700 transition duration-300 shadow-md text-xl font-semibold flex justify-between items-center">
-                            <span>👥 Organizing COMMITTEE</span>
+                            <span>👥 Organizing Committee</span>
                             <svg class="w-5 h-5 text-indigo-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </a>
                     </li>
@@ -239,14 +239,14 @@
                     <li data-aos="fade-up" data-aos-delay="500">
                         <a href="#messages"
                             class="block p-6 rounded-lg bg-white dark:bg-gray-800 shadow-lg text-gray-800 dark:text-gray-200 font-semibold border-b-4 [border-color:rgb(202_138_4/var(--tw-bg-opacity))]  hover:[background-color:rgb(202_138_4/0.1)] dark:hover:[background-color:rgb(180_120_5/0.1)] transition duration-300 transform hover:-translate-y-1">
-                            <span class="[color:rgb(202_138_4/var(--tw-text-opacity))] dark:[color:rgb(180_120_5/var(--tw-text-opacity))] text-3xl mb-1 block">🎙️</span> Dignitary SPEECHES
+                            <span class="[color:rgb(202_138_4/var(--tw-text-opacity))] dark:[color:rgb(180_120_5/var(--tw-text-opacity))] text-3xl mb-1 block">🎙️</span> Dignitary Speeches
                         </a>
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="600">
                         <a href="#committee"
                             class="block p-6 rounded-lg bg-white dark:bg-gray-800 shadow-lg text-gray-800 dark:text-gray-200 font-semibold border-b-4 [border-color:rgb(202_138_4/var(--tw-bg-opacity))] hover:[background-color:rgb(202_138_4/0.1)] dark:hover:[background-color:rgb(180_120_5/0.1)] transition duration-300 transform hover:-translate-y-1">
-                            <span class="[color:rgb(202_138_4/var(--tw-text-opacity))] dark:[color:rgb(180_120_5/var(--tw-text-opacity))] text-3xl mb-1 block">👥</span> Organizing COMMITTEE
+                            <span class="[color:rgb(202_138_4/var(--tw-text-opacity))] dark:[color:rgb(180_120_5/var(--tw-text-opacity))] text-3xl mb-1 block">👥</span> Organizing Committee
                         </a>
                     </li>
 
@@ -348,7 +348,7 @@
                             <a href="#committee"
                                 class="flex items-center p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-medium shadow-sm hover:shadow-lg hover:bg-yellow-50 dark:hover:bg-gray-700 hover:border-yellow-500 transition duration-300 transform hover:-translate-y-1">
                                 <span class="text-yellow-600 mr-3 text-2xl">&#128101;</span>
-                                Organizing COMMITTEE
+                                Organizing Committee
                             </a>
                         </li>
 
@@ -422,7 +422,7 @@
                             <a href="#messages"
                                 class="flex items-center p-5 rounded-lg bg-gray-800 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-600 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128227;</span>
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -430,7 +430,7 @@
                             <a href="#committee"
                                 class="flex items-center p-5 rounded-lg bg-gray-800 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-600 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128101;</span>
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
@@ -506,7 +506,7 @@
                             <a href="#messages"
                                 class="flex items-center p-5 rounded-lg bg-gray-800 dark:bg-gray-800 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-600 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128227;</span>
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -514,7 +514,7 @@
                             <a href="#committee"
                                 class="flex items-center p-5 rounded-lg bg-gray-800 dark:bg-gray-800 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-600 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128101;</span>
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
@@ -592,7 +592,7 @@
                             <a href="#messages"
                                 class="flex items-center p-5 rounded-lg bg-gray-800 dark:bg-gray-800 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-600 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128227;</span>
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -600,7 +600,7 @@
                             <a href="#committee"
                                 class="flex items-center p-5 rounded-lg bg-gray-800 dark:bg-gray-800 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-600 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128101;</span>
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
@@ -681,7 +681,7 @@
                         <a href="#committee"
                             class="flex items-center p-5 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-semibold transition duration-300 hover:bg-red-50 dark:hover:bg-gray-700 hover:border-red-600">
                             <span class="text-red-600 dark:text-red-400 mr-4 text-2xl">📋</span>
-                            <span>Organizing COMMITTEE</span>
+                            <span>Organizing Committee</span>
                         </a>
                     </li>
 
@@ -768,12 +768,12 @@
                     </li>
                     <li data-aos="fade-up" data-aos-delay="700">
                         <a href="#messages" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition duration-200">
-                            <span class="text-teal-500 mr-3 text-lg">&#128227;</span> Dignitary SPEECHES
+                            <span class="text-teal-500 mr-3 text-lg">&#128227;</span> Dignitary Speeches
                         </a>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="800">
                         <a href="#committee" class="flex items-center text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition duration-200">
-                            <span class="text-teal-500 mr-3 text-lg">&#128101;</span> Organizing COMMITTEE
+                            <span class="text-teal-500 mr-3 text-lg">&#128101;</span> Organizing Committee
                         </a>
                     </li>
                     <li data-aos="zoom-in" data-aos-delay="900" class="pt-4">
@@ -851,7 +851,7 @@
                         <a href="#committee"
                             class="flex items-center p-4 rounded-lg bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-medium shadow-md hover:bg-indigo-50 dark:hover:bg-gray-700 hover:border-l-4 hover:border-indigo-800 transition duration-300">
                             <span class="text-indigo-800 dark:text-indigo-400 mr-3 text-2xl">👥</span>
-                            Organizing COMMITTEE
+                            Organizing Committee
                         </a>
                     </li>
 
@@ -893,23 +893,27 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
                 <div class="lg:col-span-4 flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
+    <div class="p-8 bg-gradient-to-br from-orange-800 via-amber-600 to-yellow-400 rounded-2xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch border-4 border-white dark:border-white-700 relative overflow-hidden">
 
-                    <div class="p-8 [background-color:rgb(249_193_0)] dark:[background-color:rgb(220_170_0)] rounded-xl shadow-2xl w-full h-full flex flex-col justify-between self-stretch">
+        <span class="absolute top-4 left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-30 animate-pulse"></span>
+        <span class="absolute bottom-8 right-8 w-12 h-12 bg-orange-900 rounded-full opacity-20 animate-bounce"></span>
 
-                        <div>
-                            <h3 class="text-xl font-light uppercase tracking-wider text-gray-800 dark:text-gray-900 mb-2">Ceremony Date</h3>
-                            <p class="text-5xl font-extrabold text-white mb-8">
-                                27th Feb, 2024
-                            </p>
-                        </div>
+        <div class="flex flex-col items-center justify-center mb-8 text-center">
+            <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
+            <p class="text-5xl font-extrabold text-yellow-200 mb-2 drop-shadow-lg">
+                27th Feb, 2024
+            </p>
+            <span class="inline-block px-4 py-1 bg-white/90 text-blue-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Tuesday</span>
+        </div>
 
-                        <div class="mt-auto pt-6 border-t border-gray-700 dark:border-gray-900">
-                            <img src="./img/All convocation logo/8th.png" alt="8th Convocation Logo"
-                                class="w-full max-w-[200px] mx-auto rounded-full p-2 bg-white shadow-lg"
-                                style="aspect-ratio: 1/1; object-fit: contain;">
-                        </div>
-                    </div>
-                </div>
+        <div class="mt-auto pt-8 border-t-2 border-white/30 flex flex-col items-center">
+            <img src="./img/All convocation logo/8th.png" alt="8th Convocation Logo"
+                class="w-40 h-40 mx-auto rounded-full p-3 bg-white shadow-xl border-4 border-yellow-300 object-contain transition-transform duration-300 hover:scale-105"
+                style="aspect-ratio: 1/1;">
+            <span class="mt-4 text-white font-bold text-lg tracking-wide drop-shadow">8th Convocation</span>
+        </div>
+    </div>
+</div>
 
                 <div class="lg:col-span-8" data-aos="fade-left" data-aos-delay="400">
 
@@ -935,7 +939,7 @@
                             <a href="#messages"
                                 class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128227;</span>
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
@@ -943,15 +947,15 @@
                             <a href="#committee"
                                 class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
                                 <span class="text-yellow-500 group-hover:text-gray-900 mr-4 text-3xl">&#128101;</span>
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="800">
                             <a href="/souvenir/8th-Convocation.php" target="_blank" rel="noopener noreferrer"
-                                class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-gray-900 font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500">
+                                class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
                                 <span class="mr-4 text-3xl">&#128214;</span>
-                                <span class="text-lg">Download Souvenir</span>
+                                <span class="text-lg font-semibold">Download Souvenir</span>
                             </a>
                         </li>
 
