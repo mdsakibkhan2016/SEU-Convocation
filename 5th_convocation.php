@@ -134,7 +134,7 @@
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Book Icon --> 
-                                <span class="text-lg">Download Souvenir</span>
+                                <span class="text-lg">Souvenir</span>
                             </a>
                         </li>
 
