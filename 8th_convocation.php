@@ -989,7 +989,7 @@
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Book Icon --> 
-                                <span class="text-lg font-semibold">Download Souvenir</span>
+                                <span class="text-lg font-semibold">Souvenir</span>
                             </a>
                         </li>
 
