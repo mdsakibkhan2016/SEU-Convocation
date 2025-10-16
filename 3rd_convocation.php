@@ -74,7 +74,8 @@
 
                         <li data-aos="fade-up" data-aos-delay="500">
                             <a href="#gold-medalists"
-                                class="flex items-center p-5 rounded-lg [background-color:rgb(206_87_14/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] text-white font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(228_157_7/var(--tw-bg-opacity))]">                                 <!-- Using SVG for Medal Icon -->
+                                class="flex items-center p-5 rounded-lg [background-color:rgb(206_87_14/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] text-white font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(228_157_7/var(--tw-bg-opacity))]">
+                                <!-- Using SVG for Medal Icon -->
                                 <span class="group-hover:text-gray-900 mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" 
                                         fill="currentColor" class="w-8 h-8 text-red-900 transition-all duration-300 group-hover:text-gray-900">
