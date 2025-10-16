@@ -1,24 +1,24 @@
 <?php
 
 $chancellor = [
-    ["name" => "Md. Shak Sadi", "program" => "Textile", "id" => "2012000400057", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
+        ["name" => "Kanak Chandra Saha", "Rep" => " ", "program" => "BBA", "id" => "2011210000186", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Kanak Chandra Saha.png"],
+
    
 ];
 
 
 $viceChancellor = [
-    ["name" => "Nadia Rahman", "Rep" => " ", "program" => "B. Pharm", "id" => "2012000300082", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Puja Ghosh", "Rep" => " ", "program" => "B. Pharm", "id" => "2011100300027", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Osman Goni", "Rep" => " ", "program" => "BA-IS", "id" => "2012020000022", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Tasmia Rahman", "Rep" => " ", "program" => "Economics", "id" => "2012020106031", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Masudul Islam", "Rep" => " ", "program" => "BA-IS", "id" => "2012120000023", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Ahasun Habib", "Rep" => " ", "program" => "MDS", "id" => "2014120100006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Kanak Chandra Saha", "Rep" => " ", "program" => "BBA", "id" => "2011210000186", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Farhana Akter Urmi", "Rep" => " ", "program" => "BBA", "id" => "2012010000275", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Ibrahim Rana", "Rep" => " ", "program" => "MBA-1Y", "id" => "2015010004082", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Abhijet Das", "Rep" => " ", "program" => "BBA", "id" => "2012010000499", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    ["name" => "Sumaiya Afrin Any", "Rep" => " ", "program" => "BBA", "id" => "2012010000232", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "./img/default_profile.png"],
-    
+    ["name" => "Farhana Akter Urmi", "Rep" => " ", "program" => "BBA", "id" => "2012010000275", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Farhana Akter Urmi.png"],
+    ["name" => "Abhijet Das", "Rep" => " ", "program" => "BBA", "id" => "2012010000499", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Abhijet Das.png"],
+    ["name" => "Sumaiya Afrin Any", "Rep" => " ", "program" => "BBA", "id" => "2012010000232", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Sumaiya Afrin Any.png"],
+    ["name" => "Md. Shak Sadi", "program" => "Textile", "id" => "2012000400057", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Md. Shak Sadi.png"],
+    ["name" => "Nadia Rahman", "Rep" => " ", "program" => "B. Pharm", "id" => "2012000300082", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Nadia Rahman.png"],
+    ["name" => "Puja Ghosh", "Rep" => " ", "program" => "B. Pharm", "id" => "2011100300027", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Puja Ghosh.png"],
+    ["name" => "Osman Goni", "Rep" => " ", "program" => "BA-IS", "id" => "2012020000022", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Osman Goni.png"],
+    ["name" => "Tasmia Rahman", "Rep" => " ", "program" => "Economics", "id" => "2012020106031", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Tasmia Rahman.png"],
+    ["name" => "Md. Masudul Islam", "Rep" => " ", "program" => "BA-IS", "id" => "2012120000023", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Md. Masudul Islam.png"],
+    ["name" => "Mohammad Ibrahim Rana", "Rep" => " ", "program" => "MBA-1Y", "id" => "2015010004082", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Mohammad Ibrahim Rana.png"],
+    ["name" => "Md. Ahasun Habib", "Rep" => " ", "program" => "MDS", "id" => "2014120100006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2015", "img" => "../img/6th_convo_merit_award_imgs/Md. Ahasun Habib.png"],
 ];
 
 
