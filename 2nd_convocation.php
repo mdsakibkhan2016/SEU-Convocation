@@ -22,15 +22,18 @@
 
 
             <header class="mb-16">
-                <p class="text-lg font-light tracking-widest uppercase text-gray-700 dark:text-gray-300" data-aos="fade-right" data-aos-delay="50">
-                    A Defining Moment
+
+                <p class="text-base font-semibold tracking-widest uppercase [color:rgb(245_20_64/var(--tw-text-opacity))] dark:[color:rgb(200_17_53/var(--tw-text-opacity))]">
+                A Defining Moment
                 </p>
+
+
                 <h2 class="text-6xl lg:text-7xl font-black text-gray-900 dark:text-white mt-1" data-aos="fade-right" data-aos-delay="150">
-                    The
+                    <span class="text-black">The</span>
                     <span class="[color:rgb(245_20_64/var(--tw-text-opacity))] dark:[color:rgb(200_17_53/var(--tw-text-opacity))]">
                         2<sup class="text-4xl align-super">nd</sup>
                     </span>
-                    Convocation
+                    <span class="text-black">Convocation</span>
                 </h2>
             </header>
 
