@@ -36,7 +36,7 @@
       id="df_manual_book"
       webgl="true"
       
-      backgroundcolor="#efd4b1"
+      backgroundcolor="#f8e4ef"
       source="../pdfs/6th-Convocation.pdf"
     ></div>
 

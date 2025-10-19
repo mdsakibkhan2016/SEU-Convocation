@@ -259,20 +259,20 @@ $Organizing_Reception_Committee = [
 
 
 $Sub_Committee_for_Invitation_Souvenir_Message_Convocation_Speech_Printing = [
-    ["name" => "Professor Dr. Syed Masud Husain", "title" => "Dean, School of Business Studies", "role" => "Convener", "img" => "./img/"],
-    ["name" => "Professor Dr. Abul Kalam Azad", "title" => "Dean, School of Business Studies", "role" => "Member", "img" => "./img/"],
-    ["name" => "Professor Dr. R.I. Sharif", "title" => "Dean, School of Science & Engineering", "role" => "Member", "img" => "./img/"],
-    ["name" => "Mr. Md. Abul Hossain", "title" => "Controller of Examinations (Acting)", "role" => "Member", "img" => "./img/"],
-    ["name" => "Prof. Dr. Md. Selim Reza", "title" => "Chairman Department of Pharmacy", "role" => "Member", "img" => "./img/"],
-    ["name" => "Prof. Syed Fakhrul Hassan", "title" => "Chairman Department of Textile Engineering", "role" => "Member", "img" => "./img/"],
-    ["name" => "Brig. Gen. Mirza Tazammal Hossain Beg (Rtd)", "title" => "Chairman, Department of English", "role" => "Member", "img" => "./img/"],
-    ["name" => "Dr. Helal Uddin Ahmed", "title" => "Chairman Department of Business Administration", "role" => "Member", "img" => "./img/"],
-    ["name" => "Mr. A.K.M Amir Hossain Miah", "title" => "Deputy Registrar (Estb)", "role" => "Member", "img" => "./img/"],
-    ["name" => "Ms. Umme Habiba", "title" => "Deputy Registrar (A)", "role" => "Member", "img" => "./img/"],
-    ["name" => "A.S.M. Tofazzel Haque", "title" => "Asst. Professor Department of Law & Justice", "role" => "Member", "img" => "./img/"],
-    ["name" => "Ms. Aliya Shahnoor Ameen", "title" => "Lecturer, Department of Englishes", "role" => "Member", "img" => "./img/"],
-    ["name" => "Mr. Sheikh Karimuzzaman", "title" => "Senior Administrative Officer", "role" => "Member", "img" => "./img/"],
-    ["name" => "Mr. Mohammed Masud Alam", "title" => "Public Relations Officer", "role" => "Member", "img" => "./img/"],
+    ["name" => "Professor Dr. Syed Masud Husain", "title" => "Dean, School of Business Studies", "role" => "Convener", "img" => "./img/default_profile.png"],
+    ["name" => "Professor Dr. Abul Kalam Azad", "title" => "Dean, School of Business Studies", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Professor Dr. R.I. Sharif", "title" => "Dean, School of Science & Engineering", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Mr. Md. Abul Hossain", "title" => "Controller of Examinations (Acting)", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Prof. Dr. Md. Selim Reza", "title" => "Chairman Department of Pharmacy", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Prof. Syed Fakhrul Hassan", "title" => "Chairman Department of Textile Engineering", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Brig. Gen. Mirza Tazammal Hossain Beg (Rtd)", "title" => "Chairman, Department of English", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Dr. Helal Uddin Ahmed", "title" => "Chairman Department of Business Administration", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Mr. A.K.M Amir Hossain Miah", "title" => "Deputy Registrar (Estb)", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Ms. Umme Habiba", "title" => "Deputy Registrar (A)", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "A.S.M. Tofazzel Haque", "title" => "Asst. Professor Department of Law & Justice", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Ms. Aliya Shahnoor Ameen", "title" => "Lecturer, Department of Englishes", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Mr. Sheikh Karimuzzaman", "title" => "Senior Administrative Officer", "role" => "Member", "img" => "./img/default_profile.png"],
+    ["name" => "Mr. Mohammed Masud Alam", "title" => "Public Relations Officer", "role" => "Member", "img" => "./img/default_profile.png"],
   
 ];
 
