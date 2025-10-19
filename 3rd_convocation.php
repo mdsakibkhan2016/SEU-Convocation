@@ -74,8 +74,8 @@
 
                         <li data-aos="fade-up" data-aos-delay="500">
                             <a href="#gold-medalists"
-                                class="flex items-center p-5 rounded-lg [background-color:rgb(249_205_66/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(247_193_12/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">
-                                 <!-- Using SVG for Medal Icon -->
+                                class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
+                                <!-- Using SVG for Medal Icon -->
                                 <span class="group-hover:text-gray-900 mr-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" 
                                         fill="currentColor" class="w-8 h-8 text-red-900 transition-all duration-300 group-hover:text-gray-900">
@@ -89,8 +89,8 @@
 
                         <li data-aos="fade-up" data-aos-delay="600">
                             <a href="#messages"
-                                class="flex items-center p-5 rounded-lg [background-color:rgb(249_205_66/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(247_193_12/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">
-                                <!-- Using SVG for Speech Icon -->
+                                class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
+                                    <!-- Using SVG for Speech Icon -->
                                     <span class="text-red-900 group-hover:text-gray-900 mr-4 text-3xl transition-all duration-300 ease-in-out">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"class="w-8 h-8">
                                             <path d="M8 12h48a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H26l-9 9v-9H8a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z"/>
@@ -101,15 +101,15 @@
                                         </svg>
                                     </span>
                                  <!-- End of SVG for Speech Icon -->
-                                <span class="text-lg font-semibold">Dignitary SPEECHES</span>
+                                <span class="text-lg font-semibold">Dignitary Speeches</span>
                             </a>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="700">
                             <a href="#committee"
-                                class="flex items-center p-5 rounded-lg [background-color:rgb(249_205_66/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(247_193_12/var(--tw-bg-opacity))] hover:[color:rgb(23_23_23/var(--tw-text-opacity))] group">
-                                <!-- Using SVG for Committee Icon -->
-                                 <span class="text-red-900 group-hover:text-gray-900 mr-4 text-3xl">
+                                class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
+                                    <!-- Using SVG for Committee Icon -->
+                                    <span class="text-red-900 group-hover:text-gray-900 mr-4 text-3xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="none" stroke="currentColor" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
                                         <circle cx="320" cy="152" r="88"/>
                                         <circle cx="120" cy="184" r="56"/>
@@ -120,21 +120,21 @@
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Committee Icon -->  
-                                <span class="text-lg font-semibold">Organizing COMMITTEE</span>
+                                <span class="text-lg font-semibold">Organizing Committee</span>
                             </a>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="800">
                             <a href="/souvenir/3rd-Convocation.php" target="_blank" rel="noopener noreferrer"
-                                class="flex items-center p-5 rounded-lg [background-color:rgb(249_205_66/var(--tw-bg-opacity))] dark:[background-color:rgb(220_180_55/var(--tw-bg-opacity))] text-white font-extrabold shadow-xl transition duration-300 transform hover:scale-[1.02] hover:[background-color:rgb(247_193_12/var(--tw-bg-opacity))]">
-                                 <!-- Using SVG for Book Icon -->
+                                class="flex items-center p-5 rounded-lg bg-yellow-600 dark:bg-yellow-600 text-white font-medium shadow-xl transition duration-300 transform hover:scale-[1.02] hover:bg-yellow-500 hover:text-gray-900 group">
+                                    <!-- Using SVG for Book Icon -->
                                 <span class="text-red-900 group-hover:text-gray-900 mr-4 text-3xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor" class="w-8 h-8 transition-all duration-300 group-hover:text-gray-900">
                                         <path d="M320 205.3L320 514.6L320.5 514.4C375.1 491.7 433.7 480 492.8 480L512 480L512 160L492.8 160C450.6 160 408.7 168.4 369.7 184.6C352.9 191.6 336.3 198.5 320 205.3zM294.9 125.5L320 136L345.1 125.5C391.9 106 442.1 96 492.8 96L528 96C554.5 96 576 117.5 576 144L576 496C576 522.5 554.5 544 528 544L492.8 544C442.1 544 391.9 554 345.1 573.5L332.3 578.8C324.4 582.1 315.6 582.1 307.7 578.8L294.9 573.5C248.1 554 197.9 544 147.2 544L112 544C85.5 544 64 522.5 64 496L64 144C64 117.5 85.5 96 112 96L147.2 96C197.9 96 248.1 106 294.9 125.5z"/>
                                     </svg>
                                 </span>
                                 <!-- End of SVG for Book Icon -->  
-                                <span class="text-lg">Download Souvenir</span>
+                                <span class="text-lg">Souvenir</span>
                             </a>
                         </li>
 

@@ -36,7 +36,7 @@
       id="df_manual_book"
       webgl="true"
       
-      backgroundcolor="#efd4b1"
+      backgroundcolor="#6fa3d0"
       source="../pdfs/1st-Convocation.pdf"
     ></div>
 

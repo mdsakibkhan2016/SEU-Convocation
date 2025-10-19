@@ -1,30 +1,29 @@
 <?php
 
 $chancellor = [
-    ["name" => "Mahdee-Al- Mahmud", "program" => "BA in Eng", "id" => "2013020200073", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2016", "img" => "./img/default_profile.png"],
-    ["name" => "Shamsun Nahar", "program" => "EEE", "id" => "2017000300005", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2017", "img" => "./img/default_profile.png"],
-    ["name" => "Mostafa-E-Zaman", "program" => "Textile", "id" => "2015000400005", "medal" => "CM", "mobile" => "01707024957", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
+    ["name" => "Mahdee-Al- Mahmud", "program" => "BA in Eng", "id" => "2013020200073", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2016", "img" => "../img/7th_convo_merit_award_imgs/MAHDEE-AL- MAHMUD.png"],
+    ["name" => "Shamsun Nahar", "program" => "EEE", "id" => "2017000300005", "medal" => "CM", "mobile" => "", "type" => "Gold Medalists - 2017", "img" => "../img/7th_convo_merit_award_imgs/SHAMSUN NAHAR.png"],
+    ["name" => "Mostafa-E-Zaman", "program" => "Textile", "id" => "2015000400005", "medal" => "CM", "mobile" => "01707024957", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/MOSTAFA-E-ZAMAN.png"],
     
 ];
 
 
 $viceChancellor = [
-    ["name" => "Rahnuma Nurain", "Rep" => " ", "program" => "B. Pharm", "id" => "2013000300121", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2016", "img" => "./img/default_profile.png"],
-    ["name" => "Sara Tazkea", "Rep" => " ", "program" => "BA in Eng", "id" => "2013220200033", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2016", "img" => "./img/default_profile.png"],
-    ["name" => "Kawshar Ahmed", "Rep" => " ", "program" => "MBA-1Y", "id" => "2016010004161", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2016", "img" => "./img/default_profile.png"],
-    ["name" => "Umma Shafia Joty", "Rep" => " ", "program" => "B.Pharm", "id" => "2014000300046", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "./img/default_profile.png"],
-    ["name" => "Mashkura Khan", "Rep" => " ", "program" => "Economics", "id" => "2014020106017", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Zakir Hossain", "Rep" => " ", "program" => "MDS", "id" => "2016120100006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "./img/default_profile.png"],
-    ["name" => "Jarin Tasnim Nishad", "Rep" => " ", "program" => "BBA", "id" => "2014010000020", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "./img/default_profile.png"],
-    ["name" => "Sharmin Sultana", "Rep" => " ", "program" => "MBA-Reg", "id" => "2015210001012", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "./img/default_profile.png"],
-    ["name" => "Tamanna Sarker", "Rep" => " ", "program" => "B.Pharm", "id" => "2015000300058", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
-    ["name" => "S.M. Nabid Hasan Sunny", "Rep" => " ", "program" => "CSE", "id" => "2014200000021", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
-    ["name" => "Sania Sharmin", "Rep" => " ", "program" => "Economics", "id" => "2015020106016", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
-    ["name" => "Md. Musfikur Rahman", "Rep" => " ", "program" => "MA in Bang", "id" => "2018020502001", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
-    ["name" => "Nasim-Ur-Rahman Chowdhury", "Rep" => " ", "program" => "LLB (Hons)", "id" => "2015020300136", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
-    ["name" => "Mohammad Raisul Hasan", "Rep" => " ", "program" => "BBA", "id" => "2015010000298", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
-    ["name" => "Iffat Anjum", "Rep" => " ", "program" => "MBA-1Y", "id" => "2017210004008", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "./img/default_profile.png"],
-    
+    ["name" => "Rahnuma Nurain", "Rep" => " ", "program" => "B. Pharm", "id" => "2013000300121", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2016", "img" => "../img/7th_convo_merit_award_imgs/RAHNUMA NURAIN.png"],
+    ["name" => "Sara Tazkea", "Rep" => " ", "program" => "BA in Eng", "id" => "2013220200033", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2016", "img" => "../img/7th_convo_merit_award_imgs/SARA TAZKEA.png"],
+    ["name" => "Kawshar Ahmed", "Rep" => " ", "program" => "MBA-1Y", "id" => "2016010004161", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2016", "img" => "../img/7th_convo_merit_award_imgs/KAWSHAR AHMED.png"],
+    ["name" => "Jarin Tasnim Nishad", "Rep" => " ", "program" => "BBA", "id" => "2014010000020", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "../img/7th_convo_merit_award_imgs/JARIN TASNIM NISHAD.png"],
+    ["name" => "Umma Shafia Joty", "Rep" => " ", "program" => "B.Pharm", "id" => "2014000300046", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "../img/7th_convo_merit_award_imgs/UMMA SHAFIA JOTY.png"],
+    ["name" => "Mashkura Khan", "Rep" => " ", "program" => "Economics", "id" => "2014020106017", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "../img/7th_convo_merit_award_imgs/MASHKURA KHAN.png"],
+    ["name" => "Sharmin Sultana", "Rep" => " ", "program" => "MBA-Reg", "id" => "2015210001012", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "../img/7th_convo_merit_award_imgs/SHARMIN SULTANA.png"],
+    ["name" => "Md. Zakir Hossain", "Rep" => " ", "program" => "MDS", "id" => "2016120100006", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2017", "img" => "../img/7th_convo_merit_award_imgs/MD. ZAKIR HOSSAIN.png"],
+    ["name" => "Mohammad Raisul Hasan", "Rep" => " ", "program" => "BBA", "id" => "2015010000298", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/MOHAMMAD RAISUL HASAN.png"],
+    ["name" => "Tamanna Sarker", "Rep" => " ", "program" => "B.Pharm", "id" => "2015000300058", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/TAMANNA SARKER.png"],
+    ["name" => "Sania Sharmin", "Rep" => " ", "program" => "Economics", "id" => "2015020106016", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/SANIA SHARMIN.png"],
+    ["name" => "Iffat Anjum", "Rep" => " ", "program" => "MBA-1Y", "id" => "2017210004008", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/IFFAT ANJUM.png"],
+    ["name" => "Md. Musfikur Rahman", "Rep" => " ", "program" => "MA in Bang", "id" => "2018020502001", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/MD. MUSFIKUR RAHMAN.png"],
+    ["name" => "S.M. Nabid Hasan Sunny", "Rep" => " ", "program" => "CSE", "id" => "2014200000021", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/S.M. NABID HASAN SUNNY.png"],
+    ["name" => "Nasim-Ur-Rahman Chowdhury", "Rep" => " ", "program" => "LLB (Hons)", "id" => "2015020300136", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2018", "img" => "../img/7th_convo_merit_award_imgs/NASIM-UR-RAHMAN CHOWDHURY.png"],
 ];
 
 
