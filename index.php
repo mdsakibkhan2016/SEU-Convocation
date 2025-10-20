@@ -56,6 +56,117 @@
     </section>
     <!-- hero section End -->
 
+                    <!-- All Convocations Section Start -->
+                <section id="all-convocations" data-aos="fade-up" class="py-24 bg-slate-50">
+                <div class="container">
+                    <div class="flex items-center justify-center mb-16">
+                    <div class="max-w-2xl text-center">
+                        <h5 class="capitalize text-lg text-gray-800 font-medium mb-2">
+                        All <span class="font-semibold text-primary">Convocations</span>
+                        </h5>
+                        <h2 class="text-3xl/snug font-bold capitalize text-gray-800 mb-1.5">
+                        Explore Previous Convocations
+                        </h2>
+                        <p class="text-base font-medium text-gray-500 max-w-xl mx-auto">
+                        Browse through the previous convocations and get details about each ceremony.
+                        </p>
+                    </div>
+                    </div><!-- flex end -->
+
+                    <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
+                    <!-- Card 8 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://outspoken.newagebd.com/files/img/202502/68afffdfc3e9db9cfcfb721b6f5257e0.jpg" alt="8th Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">8<sup>th</sup> Convocation</h3>
+                        <a href="./8th_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2022/07/22/6h5a7514.jpg" alt="7th Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">7<sup>th</sup> Convocation</h3>
+                        <a href="./7th_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://cdn.daily-sun.com/public/news_images/2017/03/22/Daily-Sun-65-01-22-03-2017.jpg" alt="6th Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">6<sup>th</sup> Convocation</h3>
+                        <a href="./6th_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://aust.edu/storage/files/HYnodyJ5kiVYB0BW3i2BsRBsRUQ0DoCncSm8M9kN.jpeg" alt="5th Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">5<sup>th</sup> Convocation</h3>
+                        <a href="./5th_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://aust.edu/storage/files/AXkS5qK7Vm8Rpm6KyS7ZFP17d4M5D5KVBBYUBGYm.jpeg" alt="4th Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">4<sup>th</sup> Convocation</h3>
+                        <a href="./4th_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://dailyearthbd.com/wp-content/uploads/2025/05/CU-group.jpg" alt="3rd Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">3<sup>rd</sup> Convocation</h3>
+                        <a href="./3rd_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://cdn.daily-sun.com/public/news_images/2015/01/17/new_3696.jpg" alt="2nd Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">2<sup>nd</sup> Convocation</h3>
+                        <a href="./2nd_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 1 -->
+                    <div class="rounded-xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-lg transition">
+                        <img src="https://www.northsouth.edu/newassets/images/cee/21%20convo-8.jpg" alt="1st Convocation" class="w-full h-48 object-cover">
+                        <div class="p-6 text-center">
+                        <h3 class="text-xl font-bold mb-4">1<sup>st</sup> Convocation</h3>
+                        <a href="./1st_convocation.php" class="inline-block px-5 py-2 bg-primary text-white rounded-md hover:ring-2 ring-offset-2 ring-primary transition">
+                            View Details
+                        </a>
+                        </div>
+                    </div>
+                    </div><!-- Grid End -->
+                </div><!-- Container End -->
+                </section>
+                <!-- All Convocations Section End -->
+
+
     <!-- Application procedure section start -->
     <section id="procedure" data-aos="fade-up" class="py-24 bg-white">
         <div class="container">
