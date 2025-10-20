@@ -23,15 +23,15 @@
 
 
             <header class="mb-16" data-aos="fade-up">
-    <p class="text-base font-semibold tracking-widest uppercase text-blue-600 dark:text-blue-400">
+                <p class="text-base font-semibold tracking-widest uppercase text-blue-600 dark:text-blue-400">
         A Defining Moment
     </p>
     <h1 class="text-6xl lg:text-7xl font-black text-gray-900 dark:text-white mt-2">
-        The
+        <span class="text-black">The</span>
         <span class="text-blue-600 dark:text-blue-400">
             1<sup class="text-3xl lg:text-4xl -top-4 lg:-top-6">st</sup>
         </span>
-        Convocation
+        <span class="text-black">Convocation</span>
     </h1>
 </header>
 

@@ -22,7 +22,7 @@ $viceChancellor = [
     ["name" => "Prianka Datta", "Rep" => " ", "program" => "BBA", "id" => "2007210000095", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Prianka Datta.png"],
     ["name" => "Rumana Akhter", "Rep" => " ", "program" => "MBA", "id" => "2010210005047", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2011", "img" => "../img/4th_convo_merit_award_imgs/Rumana Akhter.png"],
     ["name" => "Md. Tofayel Ahmed", "Rep" => " ", "program" => "Textile", "id" => "2009000400066", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Tofayel Ahmed.png"],
-    ["name" => "Md. Mahmud-Ur-Rahman", "Rep" => " ", "program" => "Textile", "id" => "2008100400045", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Mahmud-Ur-Rahman.png"],
+    ["name" => "Md. Mahmud-Ur-Rahman", "Rep" => " ", "program" => "Textile", "id" => "2008100400045", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Mahmud-ur-Rahman.png"],
     ["name" => "Imran Hossain", "Rep" => " ", "program" => "Textile", "id" => "2009000400079", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Imran Hossain.png"],
     ["name" => "Md. Ahad Bin Ismail", "Rep" => " ", "program" => "BA-IS", "id" => "2009041000011", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Md. Ahad Bin Ismail.png"],
     ["name" => "Nahida Sultana", "Rep" => " ", "program" => "LLB (Hons)", "id" => "2008120300031", "medal" => "VCM", "mobile" => " ", "type" => "Gold Medalists - 2012", "img" => "../img/4th_convo_merit_award_imgs/Nahida Sultana.png"],
@@ -189,7 +189,7 @@ Finally, I wish all of our graduates a very happy and successful future.
         "title" => "Dean (Acting))",
         "dept" => "School of Arts & Social Sciences",
         "org" => "Southeast University",
-        "img" => "../img/4th_convo_imgs\prof. Dr. Md. Abdul Hakim.png",
+        "img" => "../img/4th_convo_imgs/Prof. Dr. Md. Abdul Hakim.png",
         "logo" => "../img/logo.png",
         "msg" => "Convocation is indeed a highly memorable event in the life of those students who are awarded certificates formally generally in a grand ceremony. After having worked hard for months spread over several years, our students have graduated from the university and have waited eagerly for this day, the day of formal recognition of their achievement. The day has finally come. It is like a dream come true for them. Like the students, all members of Southeast University family too have longed for the day. I extend my heartiest congratulation to our students on their achievement.
 
