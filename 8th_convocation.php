@@ -901,7 +901,7 @@
         <div class="flex flex-col items-center justify-center mb-8 text-center">
             <h3 class="text-2xl font-extrabold uppercase tracking-widest text-white mb-2 drop-shadow-lg">Ceremony Date</h3>
             <p class="text-5xl font-extrabold text-yellow-200 mb-2 drop-shadow-lg">
-                27th Feb, 2024
+                27th Feb, 2025
             </p>
             <span class="inline-block px-4 py-1 bg-white/90 text-blue-800 font-semibold rounded-full shadow text-sm mt-2 tracking-wide">Tuesday</span>
         </div>
