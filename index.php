@@ -576,6 +576,104 @@
     </section>
     <!-- FAQ End -->
 
+<section id="alumni-testimonials" class="py-32 bg-gradient-to-br from-primary to-purple-600 relative overflow-hidden">
+  
+  <div class="absolute -top-24 -right-24 opacity-30 blur-3xl w-96 h-96 bg-white/40 rounded-full z-0"></div>
+  <div class="absolute -bottom-24 -left-24 opacity-30 blur-3xl w-96 h-96 bg-white/40 rounded-full z-0"></div>
+
+  <div class="container mx-auto relative z-10">
+    <h2 class="text-5xl font-extrabold text-black text-center mb-16 drop-shadow">Alumni Testimonials</h2>
+    
+    <div class="relative max-w-3xl mx-auto">
+      <div id="carousel" class="overflow-hidden">
+        
+        <div class="flex transition-transform duration-700 ease-in-out" id="carousel-inner">
+          </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  // --- ধাপ ১: আপনার সব রিভিউ এখানে একটি অ্যারেতে রাখুন ---
+  // আপনি এখানে যত খুশি তত রিভিউ (১০০ বা ১০০০) যোগ করতে পারবেন।
+  const testimonialData = [
+    {
+      imgSrc: "https://media.licdn.com/dms/image/v2/C4E03AQHOWKb6W2-M7Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516811639158?e=2147483647&v=beta&t=vbHksW5QYdSIhYCfDRP5R9Yoj1oVd5pjNxDmGdjnfnQ",
+      alt: "Alumni 1",
+      quote: "SEU gave me the foundation for my career. I'm grateful for the faculty and friends.",
+      name: "Karim Rahman",
+      details: "CSE, 2017"
+    },
+    {
+      imgSrc: "https://media.licdn.com/dms/image/v2/D4E03AQEY1cp_ikRDXw/profile-displayphoto-shrink_800_800/B4EZbNnZOyGcAc-/0/1747206379012?e=2147483647&v=beta&t=AArk-3gqVnY6URoE13f59dmlzlX5h3LwMh7R3eO-qhI",
+      alt: "Alumni 2",
+      quote: "Best decision I ever made was joining this varsity.",
+      name: "Nusrat Jahan",
+      details: "EEE, 2018"
+    },
+    {
+      imgSrc: "https://media.licdn.com/dms/image/v2/D5603AQEwBs5PH8__Lg/profile-displayphoto-shrink_400_400/B56ZYUTcRrHQAg-/0/1744097363575?e=2147483647&v=beta&t=GxNcNOrnm9bYhS9pdo3xBJ6P4QQ3VncqFQrQPXKzrGU",
+      alt: "Alumni 3",
+      quote: "I loved the campus culture and support system.",
+      name: "Tanvir Hossain",
+      details: "BBA, 2020"
+    },
+    {
+      imgSrc: "https://placehold.co/150x150/E2E8F0/4A5568?text=Alumni+4",
+      alt: "Alumni 4",
+      quote: "The professors were incredibly supportive and guided me at every step.",
+      name: "Fatima Ahmed",
+      details: "English, 2019"
+    },
+    {
+      imgSrc: "https://placehold.co/150x150/D1C4E9/4527A0?text=Alumni+5",
+      alt: "Alumni 5",
+      quote: "I gained practical skills that directly helped me in my job.",
+      name: "Rahim Sheikh",
+      details: "Law, 2021"
+    }
+    // ... আপনি চাইলে এখানে আরও ৯৫টি অবজেক্ট যোগ করতে পারেন
+  ];
+
+
+  // --- ধাপ ২: জাভাস্ক্রিপ্ট দিয়ে কার্ড তৈরি করা ---
+  const inner = document.getElementById('carousel-inner');
+  inner.innerHTML = ''; // প্রথমে ভেতরটা খালি করে নেওয়া হলো
+
+  // প্রতিটি রিভিউ ডেটার জন্য লুপ চালানো হচ্ছে
+  testimonialData.forEach(testimonial => {
+    // প্রতিটি রিভিউর জন্য HTML টেমপ্লেট
+    const cardHTML = `
+      <div class="w-full flex-shrink-0">
+        <div class="text-center px-6 py-8 bg-white/90 rounded-2xl transform transition-all duration-500 hover:scale-105 shadow-xl mx-3">
+          <img src="${testimonial.imgSrc}" alt="${testimonial.alt}" class="mx-auto w-24 h-24 rounded-full mb-5 object-cover">
+          <p class="text-lg font-medium italic mb-2 text-gray-700">"${testimonial.quote}"</p>
+          <div class="font-bold text-primary">${testimonial.name}</div>
+          <div class="text-sm text-gray-500">${testimonial.details}</div>
+        </div>
+      </div>
+    `;
+    
+    inner.innerHTML += cardHTML;
+  });
+
+
+  const totalSlides = inner.children.length; // ডায়নামিকভাবে মোট স্লাইডের সংখ্যা গণনা করা হচ্ছে
+  let current = 0;
+  
+  if (totalSlides > 0) { // যদি স্লাইড থাকে তবেই অ্যানিমেশন চলবে
+    setInterval(() => {
+      current = (current + 1) % totalSlides;
+      inner.style.transform = `translateX(-${current * 100}%)`;
+    }, 4500);
+  }
+</script>
+
+
     <?php include 'includes/footer.php'; ?>
 
     <?php include 'includes/scripts.php'; ?>
