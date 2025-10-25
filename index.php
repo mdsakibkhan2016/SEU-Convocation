@@ -598,55 +598,152 @@
 
 
 <script>
-  // --- ধাপ ১: আপনার সব রিভিউ এখানে একটি অ্যারেতে রাখুন ---
-  // আপনি এখানে যত খুশি তত রিভিউ (১০০ বা ১০০০) যোগ করতে পারবেন।
+
   const testimonialData = [
     {
-      imgSrc: "https://media.licdn.com/dms/image/v2/C4E03AQHOWKb6W2-M7Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516811639158?e=2147483647&v=beta&t=vbHksW5QYdSIhYCfDRP5R9Yoj1oVd5pjNxDmGdjnfnQ",
-      alt: "Alumni 1",
-      quote: "SEU gave me the foundation for my career. I'm grateful for the faculty and friends.",
-      name: "Karim Rahman",
-      details: "CSE, 2017"
+      imgSrc: "img/success-stories/Iftekhar Alam Ishaque.jpg",
+      alt: "Iftekhar Alam Ishaque",
+      quote: "I am Iftekhar Alam Ishaque, a former CSE student from Southeast University and currently the COO at SSL Wireless. When we enrolled, our vision was to excel in programming competitions with guidance from mentors like Shahriar Manzoor Sir and....",
+      name: "Iftekhar Alam Ishaque",
+      details: "SSL Wireless"
     },
     {
-      imgSrc: "https://media.licdn.com/dms/image/v2/D4E03AQEY1cp_ikRDXw/profile-displayphoto-shrink_800_800/B4EZbNnZOyGcAc-/0/1747206379012?e=2147483647&v=beta&t=AArk-3gqVnY6URoE13f59dmlzlX5h3LwMh7R3eO-qhI",
-      alt: "Alumni 2",
-      quote: "Best decision I ever made was joining this varsity.",
-      name: "Nusrat Jahan",
-      details: "EEE, 2018"
+      imgSrc: "img/success-stories/Dr Manirujjaman Monir.png",
+      alt: "Dr Manirujjaman Monir",
+      quote: "From Southeast University to earning my PhD in Australia, I’m now proud to serve as the QA Manager at Lucas Meyer by Clariant. Grateful for the foundation my education provided!",
+      name: "Dr Manirujjaman Monir",
+      details: "Lucas Meyer by Clariant, Australia"
     },
     {
-      imgSrc: "https://media.licdn.com/dms/image/v2/D5603AQEwBs5PH8__Lg/profile-displayphoto-shrink_400_400/B56ZYUTcRrHQAg-/0/1744097363575?e=2147483647&v=beta&t=GxNcNOrnm9bYhS9pdo3xBJ6P4QQ3VncqFQrQPXKzrGU",
-      alt: "Alumni 3",
-      quote: "I loved the campus culture and support system.",
-      name: "Tanvir Hossain",
-      details: "BBA, 2020"
+      imgSrc: "img/success-stories/Abu Ishtiaque Mohammad Fahim.png",
+      alt: "Abu Ishtiaque Mohammad Fahim",
+      quote: "The Department of CSE gave me a chance to build my personal and professional skills with its well organized culture of academic target fulfillment. CSE department has a dynamic and well structured 4 years study plan which focuses on the capa....",
+      name: "Abu Ishtiaque Mohammad Fahim",
+      details: "Tallinn University of Technology, Estonia (Graduated)"
     },
     {
-      imgSrc: "https://placehold.co/150x150/E2E8F0/4A5568?text=Alumni+4",
-      alt: "Alumni 4",
-      quote: "The professors were incredibly supportive and guided me at every step.",
-      name: "Fatima Ahmed",
-      details: "English, 2019"
+      imgSrc: "img/success-stories/Shamin Asfaq.png",
+      alt: "Shamin Asfaq",
+      quote: "Southeast University has provided me with a wonderful environment and opportunity to learn and grow myself academically as well as to secure a place in the job market with its best education services. From my perspective, the university has ....",
+      name: "Shamin Asfaq",
+      details: "TU Chemnitz"
     },
     {
-      imgSrc: "https://placehold.co/150x150/D1C4E9/4527A0?text=Alumni+5",
-      alt: "Alumni 5",
-      quote: "I gained practical skills that directly helped me in my job.",
-      name: "Rahim Sheikh",
-      details: "Law, 2021"
+      imgSrc: "img/success-stories/Dr. Md Faruk Saurav.png",
+      alt: "Dr. Md Faruk Saurav",
+      quote: "Thanks to SEU’s Pharmacy Dept. for building the foundation for my growth, expertise and confidence that have been crucial in driving my career forward to where it is today.",
+      name: "Dr. Md Faruk Saurav",
+      details: "Ethypharm UK"
+    },
+    {
+      imgSrc: "img/success-stories/ANISUL KIBRIA BHUYAN.png",
+      alt: "ANISUL KIBRIA BHUYAN",
+      quote: "As a proud graduate of Southeast University, I think that the lessons learned, the relationships made, and the enduring sense of community are what really mattered about my education. Southeast University serves as a springboard for a lifet....",
+      name: "ANISUL KIBRIA BHUYAN",
+      details: "ABC Paimal Group of Industries"
+    },
+    {
+      imgSrc: "img/success-stories/Kazi Naima Nusrat.png",
+      alt: "Kazi Naima Nusrat",
+      quote: "As an alumnus of the EEE department at Southeast University, I am grateful for the strong academic foundation and hands-on experience I received. The dedicated faculty, modern labs, and industry connections prepared me well for my career, f....",
+      name: "Kazi Naima Nusrat",
+      details: "Era Construction"
+    },
+    {
+      imgSrc: "img/success-stories/Masum Billah.png",
+      alt: "Masum Billah",
+      quote: "My time at the EEE department of Southeast University was transformative. The supportive faculty, cutting-edge curriculum, and practical learning opportunities equipped me with the skills and confidence to excel in my career. I truly apprec....",
+      name: "Masum Billah",
+      details: "China National Electric Engineering CO, LTD"
+    },
+    {
+      imgSrc: "img/success-stories/Sadia Sultana.png",
+      alt: "Sadia Sultana",
+      quote: "I'm Sharmin Akter. As a student of Southeast University's Department of Economics, I am consistently impressed by the department's dedication to academic excellence. The faculty members are not only knowledgeable but also deeply committed t....",
+      name: "Sadia Sultana",
+      details: "Google"
+    },
+    {
+      imgSrc: "img/success-stories/Abdullah Al Amin.png",
+      alt: "Abdullah Al Amin",
+      quote: "I am Abdullah Al Amin, a graduate of Southeast University’s Architecture Department. Now, as a faculty member and coordinator of the same department, I’m thankful to Southeast University, our supportive faculties, and esteemed Head, Profess....",
+      name: "Abdullah Al Amin",
+      details: "Southeast University"
+    },
+    {
+      imgSrc: "img/success-stories/Md Musfikur Rahman.png",
+      alt: "Md Musfikur Rahman",
+      quote: "This department offers a curriculum that focuses on research & equipping students with the skills necessary for success in global literary studies.",
+      name: "Md Musfikur Rahman",
+      details: "Gauhati University"
+    },
+    {
+      imgSrc: "img/success-stories/Mehedy Hasan Bappy.png",
+      alt: "Mehedy Hasan Bappy",
+      quote: "The curriculum is suitable for ongoing competitive job sector as well. I found it helpful to reach my goal.",
+      name: "Mehedy Hasan Bappy",
+      details: "Dakpion IMC"
+    },
+    {
+      imgSrc: "img/success-stories/Bidya Sinha Saha Mim.png",
+      alt: "Bidya Sinha Saha Mim",
+      quote: "The faculty members impart lessons here in very nice academic and sincere atmosphere.",
+      name: "Bidya Sinha Saha Mim",
+      details: ""
+    },
+    {
+      imgSrc: "img/success-stories/Md Musfikur Rahman.png",
+      alt: "Md Musfikur Rahman",
+      quote: "This department offers a curriculum that focuses on research & equipping students with the skills necessary for success in global literary studies.",
+      name: "Md Musfikur Rahman",
+      details: "Gauhati University"
+    },
+    {
+      imgSrc: "img/success-stories/রাসেল আহম্মেদ.png",
+      alt: "রাসেল আহম্মেদ",
+      quote: "This department always encourages us to be active in cultural event which made us competent to perform in national level.",
+      name: "রাসেল আহম্মেদ",
+      details: "পরিবেশ বন ও জলবায়ু পরিবর্তন মন্ত্রনালয়"
+    },
+    {
+      imgSrc: "img/success-stories/Md. Abidur Rahman.png",
+      alt: "Md. Abidur Rahman",
+      quote: "The Quality education system of Southeast University and the tireless efforts and foresight of the teachers inspired me to make a successful career in Quality Assurance.",
+      name: "Md. Abidur Rahman",
+      details: "The ACME Laboratories Ltd."
+    },
+    {
+      imgSrc: "img/success-stories/Juairia Farzana.png",
+      alt: "Juairia Farzana",
+      quote: "The English department is a place where teachers are always ready to help the students. I learned all the innovative and creative teaching styles from my teacher, which I used in my teaching career.",
+      name: "Juairia Farzana",
+      details: "Memorial University"
+    },
+    {
+      imgSrc: "img/success-stories/Md. Hasanur rahman.png",
+      alt: "Md. Hasanur rahman",
+      quote: "I always feel proud to introduce myself as a graduate from Southeast University, Department of English. The critical issues pertaining to managing and implementing leadership quality, academic excellence had grown up with the help of talent....",
+      name: "Md. Hasanur rahman",
+      details: "Brac Bank"
+    },
+    {
+      imgSrc: "img/success-stories/Mir Abidur Rahman.png",
+      alt: "Mir Abidur Rahman",
+      quote: "The educational & institutional ambience of Southeast University  improved my confidence level and self-esteem. Communicative and interactive class sessions boosted my verbal skills and self confidence immensely which helped me in BCS exam ....",
+      name: "Mir Abidur Rahman",
+      details: "Bangladesh Police"
     }
-    // ... আপনি চাইলে এখানে আরও ৯৫টি অবজেক্ট যোগ করতে পারেন
+    
   ];
 
 
-  // --- ধাপ ২: জাভাস্ক্রিপ্ট দিয়ে কার্ড তৈরি করা ---
-  const inner = document.getElementById('carousel-inner');
-  inner.innerHTML = ''; // প্রথমে ভেতরটা খালি করে নেওয়া হলো
 
-  // প্রতিটি রিভিউ ডেটার জন্য লুপ চালানো হচ্ছে
+  const inner = document.getElementById('carousel-inner');
+  inner.innerHTML = ''; 
+
+ 
   testimonialData.forEach(testimonial => {
-    // প্রতিটি রিভিউর জন্য HTML টেমপ্লেট
+    
     const cardHTML = `
       <div class="w-full flex-shrink-0">
         <div class="text-center px-6 py-8 bg-white/90 rounded-2xl transform transition-all duration-500 hover:scale-105 shadow-xl mx-3">
@@ -662,10 +759,10 @@
   });
 
 
-  const totalSlides = inner.children.length; // ডায়নামিকভাবে মোট স্লাইডের সংখ্যা গণনা করা হচ্ছে
+  const totalSlides = inner.children.length; 
   let current = 0;
   
-  if (totalSlides > 0) { // যদি স্লাইড থাকে তবেই অ্যানিমেশন চলবে
+  if (totalSlides > 0) { 
     setInterval(() => {
       current = (current + 1) % totalSlides;
       inner.style.transform = `translateX(-${current * 100}%)`;
