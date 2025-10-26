@@ -530,7 +530,7 @@
                         <div id="faq-4" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="faq-4">
                             <div class="px-6 pb-4 pt-0">
                                 <p class="text-gray-600 text-sm font-medium mb-2">
-                                No, registration is currently closed.
+                                No, registration is currently closed
                                 </p>
                             </div>
                         </div>
@@ -576,102 +576,319 @@
     </section>
     <!-- FAQ End -->
 
-<section id="alumni-testimonials" class="py-32 bg-gradient-to-br from-primary to-purple-600 relative overflow-hidden">
-  
-  <div class="absolute -top-24 -right-24 opacity-30 blur-3xl w-96 h-96 bg-white/40 rounded-full z-0"></div>
-  <div class="absolute -bottom-24 -left-24 opacity-30 blur-3xl w-96 h-96 bg-white/40 rounded-full z-0"></div>
-
-  <div class="container mx-auto relative z-10">
-    <h2 class="text-5xl font-extrabold text-black text-center mb-16 drop-shadow">Alumni Testimonials</h2>
-    
-    <div class="relative max-w-3xl mx-auto">
-      <div id="carousel" class="overflow-hidden">
-        
-        <div class="flex transition-transform duration-700 ease-in-out" id="carousel-inner">
-          </div>
-
-      </div>
+    <!-- Alumni Testimonials Start -->
+<section id="alumni-testimonials" class="py-16 md:py-24 lg:py-32 bg-white relative overflow-visible">
+    <!-- Floating Background Orbs (unchanged) -->
+    <!-- ... Orbs markup ... -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Section Title -->
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 drop-shadow-sm animate-slide-in">
+                    Alumni Testimonials
+                </h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mb-4"></div>
+                <p class="text-gray-600 text-base md:text-lg font-medium max-w-2xl mx-auto">
+                    Hear from our successful graduates about their journey and achievements
+                </p>
+            </div>
+        <div class="relative max-w-5xl mx-auto">
+            <div id="carousel" class="rounded-3xl" style="overflow:visible;">
+                <div class="flex transition-transform duration-700 ease-in-out" id="carousel-inner"></div>
+            </div>
+            <button id="prevBtn" class="absolute left-0 top-1/2 ..."> <i class="uil uil-angle-left text-2xl"></i> </button>
+            <button id="nextBtn" class="absolute right-0 top-1/2 ..."> <i class="uil uil-angle-right text-2xl"></i> </button>
+            <div id="pagination" class="flex flex-wrap justify-center gap-2 mt-8"></div>
+        </div>
     </div>
-  </div>
+    <style>
+        /* ...existing styles... */
+        .testimonial-card {
+            position: relative;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: box-shadow 0.4s cubic-bezier(.4,0,.2,1);
+        }
+        .carousel-shadow {
+            box-shadow: 0 12px 48px 0 rgba(59,130,246,0.21), 0 6px 32px 0 rgba(123,56,243,0.18);
+            z-index: 10;
+        }
+        /* Text blur logic */
+        .testimonial-quote {
+            transition: filter 0.3s cubic-bezier(.4,0,.2,1);
+        }
+        .blurry-text {
+            filter: blur(3px);
+        }
+        .clear-text {
+            filter: none;
+        }
+    </style>
+    <script>
+        const testimonialData = [
+            {
+                imgSrc: "img/success-stories/Iftekhar Alam Ishaque.jpg",
+                alt: "Iftekhar Alam Ishaque",
+                quote: "I am Iftekhar Alam Ishaque, a former CSE student from Southeast University and currently the COO at SSL Wireless. When we enrolled, our vision was to excel in programming competitions with guidance from mentors like Shahriar Manzoor Sir and....",
+                name: "Iftekhar Alam Ishaque",
+                details: "SSL Wireless"
+            },
+            {
+                imgSrc: "img/success-stories/Dr Manirujjaman Monir.png",
+                alt: "Dr Manirujjaman Monir",
+                quote: "From Southeast University to earning my PhD in Australia, I'm now proud to serve as the QA Manager at Lucas Meyer by Clariant. Grateful for the foundation my education provided!",
+                name: "Dr Manirujjaman Monir",
+                details: "QA Manager, Lucas Meyer by Clariant, Australia"
+            },
+            {
+                imgSrc: "img/success-stories/Abu Ishtiaque Mohammad Fahim.png",
+                alt: "Abu Ishtiaque Mohammad Fahim",
+                quote: "The Department of CSE gave me a chance to build my personal and professional skills with its well organized culture of academic target fulfillment. CSE department has a dynamic and well structured 4 years study plan which focuses on the capa....",
+                name: "Abu Ishtiaque Mohammad Fahim",
+                details: "Tallinn University of Technology, Estonia (Graduated)"
+            },
+            {
+                imgSrc: "img/success-stories/Shamin Asfaq.png",
+                alt: "Shamin Asfaq",
+                quote: "Southeast University has provided me with a wonderful environment and opportunity to learn and grow myself academically as well as to secure a place in the job market with its best education services. From my perspective, the university has ....",
+                name: "Shamin Asfaq",
+                details: "TU Chemnitz"
+            },
+            {
+                imgSrc: "img/success-stories/Dr. Md Faruk Saurav.png",
+                alt: "Dr. Md Faruk Saurav",
+                quote: "Thanks to SEU's Pharmacy Dept. for building the foundation for my growth, expertise and confidence that have been crucial in driving my career forward to where it is today.",
+                name: "Dr. Md Faruk Saurav",
+                details: "Ethypharm UK"
+            },
+            {
+                imgSrc: "img/success-stories/ANISUL KIBRIA BHUYAN.png",
+                alt: "ANISUL KIBRIA BHUYAN",
+                quote: "As a proud graduate of Southeast University, I think that the lessons learned, the relationships made, and the enduring sense of community are what really mattered about my education. Southeast University serves as a springboard for a lifet....",
+                name: "ANISUL KIBRIA BHUYAN",
+                details: "ABC Paimal Group of Industries"
+            },
+            {
+                imgSrc: "img/success-stories/Kazi Naima Nusrat.png",
+                alt: "Kazi Naima Nusrat",
+                quote: "As an alumnus of the EEE department at Southeast University, I am grateful for the strong academic foundation and hands-on experience I received. The dedicated faculty, modern labs, and industry connections prepared me well for my career, f....",
+                name: "Kazi Naima Nusrat",
+                details: "Era Construction"
+            },
+            {
+                imgSrc: "img/success-stories/Masum Billah.png",
+                alt: "Masum Billah",
+                quote: "My time at the EEE department of Southeast University was transformative. The supportive faculty, cutting-edge curriculum, and practical learning opportunities equipped me with the skills and confidence to excel in my career. I truly apprec....",
+                name: "Masum Billah",
+                details: "China National Electric Engineering CO, LTD"
+            },
+            {
+                imgSrc: "img/success-stories/Sadia Sultana.png",
+                alt: "Sadia Sultana",
+                quote: "I'm Sharmin Akter. As a student of Southeast University's Department of Economics, I am consistently impressed by the department's dedication to academic excellence. The faculty members are not only knowledgeable but also deeply committed t....",
+                name: "Sadia Sultana",
+                details: "Google"
+            },
+            {
+                imgSrc: "img/success-stories/Abdullah Al Amin.png",
+                alt: "Abdullah Al Amin",
+                quote: "I am Abdullah Al Amin, a graduate of Southeast University's Architecture Department. Now, as a faculty member and coordinator of the same department, I'm thankful to Southeast University, our supportive faculties, and esteemed Head, Profess....",
+                name: "Abdullah Al Amin",
+                details: "Southeast University"
+            },
+            {
+                imgSrc: "img/success-stories/Md Musfikur Rahman.png",
+                alt: "Md Musfikur Rahman",
+                quote: "This department offers a curriculum that focuses on research & equipping students with the skills necessary for success in global literary studies.",
+                name: "Md Musfikur Rahman",
+                details: "Gauhati University"
+            },
+            {
+                imgSrc: "img/success-stories/Mehedy Hasan Bappy.png",
+                alt: "Mehedy Hasan Bappy",
+                quote: "The curriculum is suitable for ongoing competitive job sector as well. I found it helpful to reach my goal.",
+                name: "Mehedy Hasan Bappy",
+                details: "Dakpion IMC"
+            },
+            {
+                imgSrc: "img/success-stories/Bidya Sinha Saha Mim.png",
+                alt: "Bidya Sinha Saha Mim",
+                quote: "The faculty members impart lessons here in very nice academic and sincere atmosphere.",
+                name: "Bidya Sinha Saha Mim",
+                details: ""
+            },
+            {
+                imgSrc: "img/success-stories/রাসেল আহম্মেদ.png",
+                alt: "রাসেল আহম্মেদ",
+                quote: "This department always encourages us to be active in cultural event which made us competent to perform in national level.",
+                name: "রাসেল আহম্মেদ",
+                details: "পরিবেশ বন ও জলবায়ু পরিবর্তন মন্ত্রনালয়"
+            },
+            {
+                imgSrc: "img/success-stories/Md. Abidur Rahman.png",
+                alt: "Md. Abidur Rahman",
+                quote: "The Quality education system of Southeast University and the tireless efforts and foresight of the teachers inspired me to make a successful career in Quality Assurance.",
+                name: "Md. Abidur Rahman",
+                details: "The ACME Laboratories Ltd."
+            },
+            {
+                imgSrc: "img/success-stories/Juairia Farzana.png",
+                alt: "Juairia Farzana",
+                quote: "The English department is a place where teachers are always ready to help the students. I learned all the innovative and creative teaching styles from my teacher, which I used in my teaching career.",
+                name: "Juairia Farzana",
+                details: "Memorial University"
+            },
+            {
+                imgSrc: "img/success-stories/Md. Hasanur rahman.png",
+                alt: "Md. Hasanur rahman",
+                quote: "I always feel proud to introduce myself as a graduate from Southeast University, Department of English. The critical issues pertaining to managing and implementing leadership quality, academic excellence had grown up with the help of talent....",
+                name: "Md. Hasanur rahman",
+                details: "Brac Bank"
+            },
+            {
+                imgSrc: "img/success-stories/Mir Abidur Rahman.png",
+                alt: "Mir Abidur Rahman",
+                quote: "The educational & institutional ambience of Southeast University improved my confidence level and self-esteem. Communicative and interactive class sessions boosted my verbal skills and self confidence immensely which helped me in BCS exam ....",
+                name: "Mir Abidur Rahman",
+                details: "Bangladesh Police"
+            }
+        ];
+        const inner = document.getElementById('carousel-inner');
+        const pagination = document.getElementById('pagination');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let current = 0;
+        let autoplayInterval;
+        let isTransitioning = false;
+
+        function createCard(testimonial) {
+            const wrapper = document.createElement('div');
+            wrapper.className = "w-full flex-shrink-0 px-4 md:px-8";
+            wrapper.innerHTML = `
+                <div class="testimonial-card text-center px-6 sm:px-8 md:px-12 py-8 md:py-12 bg-white/95 rounded-2xl md:rounded-3xl mx-auto max-w-4xl border border-white/50">
+                    <div class="mb-6 relative inline-block">
+                        <img src="${testimonial.imgSrc}" alt="${testimonial.alt}" class="mx-auto w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full object-cover border-4 border-white shadow-xl ring-4 ring-blue-100">
+                        <div class="absolute -bottom-2 -right-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full p-2 shadow-lg">
+                            <i class="uil uil-graduation-cap text-lg md:text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <div class="flex justify-center mb-4">
+                            <i class="uil uil-quote-left text-4xl md:text-5xl text-blue-500 opacity-40"></i>
+                        </div>
+                        <div class="testimonial-quote text-base sm:text-lg md:text-xl font-medium text-gray-700 leading-relaxed line-clamp-4 md:line-clamp-none">${testimonial.quote}</div>
+                    </div>
+                    <div class="border-t border-gray-200 pt-6 mt-6">
+                        <div class="font-bold text-lg md:text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2">${testimonial.name}</div>
+                        <div class="text-sm md:text-base text-gray-600 font-medium flex items-center justify-center gap-2">
+                            <i class="uil uil-briefcase text-blue-500"></i>
+                            ${testimonial.details || "Southeast University Alumni"}
+                        </div>
+                    </div>
+                </div>`;
+            return wrapper;
+        }
+        inner.innerHTML = '';
+        inner.appendChild(createCard(testimonialData[testimonialData.length - 1]));
+        testimonialData.forEach(testimonial => inner.appendChild(createCard(testimonial)));
+        inner.appendChild(createCard(testimonialData[0]));
+        const totalSlides = testimonialData.length;
+        current = 1;
+        inner.style.transform = `translateX(-${current * 100}%)`;
+
+        // Pagination and nav functions same as before...
+        pagination.innerHTML = '';
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('button');
+            dot.className = `w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-all duration-300 ${i === 0 ? 'bg-gradient-to-r from-blue-500 to-purple-500 w-8 md:w-10' : 'bg-gray-300 hover:bg-gray-400'}`;
+            dot.setAttribute('aria-label', `Go to testimonial ${i + 1}`);
+            dot.addEventListener('click', () => {
+                goToSlide(i + 1);
+            });
+            pagination.appendChild(dot);
+        }
+        function updatePagination() {
+            const dots = pagination.children;
+            let actualIndex = current - 1;
+            if (actualIndex < 0) actualIndex = totalSlides - 1;
+            if (actualIndex >= totalSlides) actualIndex = 0;
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = i === actualIndex
+                    ? 'w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-all duration-300 bg-gradient-to-r from-blue-500 to-purple-500 w-8 md:w-10'
+                    : 'w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-all duration-300 bg-gray-300 hover:bg-gray-400';
+            }
+        }
+        // SHADOW AND BLUR LOGIC
+        function updateCardShadowsAndBlur() {
+            const cards = inner.querySelectorAll('.testimonial-card');
+            cards.forEach((card, i) => {
+                card.classList.remove('carousel-shadow');
+                const quote = card.querySelector('.testimonial-quote');
+                quote.classList.remove('clear-text');
+                quote.classList.add('blurry-text');
+            });
+            if (cards[current]) {
+                cards[current].classList.add('carousel-shadow');
+                // Clear blur on active card
+                const quote = cards[current].querySelector('.testimonial-quote');
+                if (quote) {
+                    quote.classList.remove('blurry-text');
+                    quote.classList.add('clear-text');
+                }
+            }
+        }
+        function goToSlide(index, withTransition = true) {
+            if (isTransitioning && withTransition) return;
+            if (withTransition) isTransitioning = true;
+            current = index;
+            inner.style.transition = withTransition ? 'transform 0.7s ease-in-out' : 'none';
+            inner.style.transform = `translateX(-${current * 100}%)`;
+            updatePagination();
+            updateCardShadowsAndBlur();
+            if (withTransition) {
+                resetAutoplay();
+                setTimeout(() => { isTransitioning = false; }, 700);
+            }
+        }
+        function nextSlide() {
+            if (isTransitioning) return;
+            current++;
+            goToSlide(current);
+            if (current === totalSlides + 1) {
+                setTimeout(() => { goToSlide(1, false); }, 700);
+            }
+        }
+        function prevSlide() {
+            if (isTransitioning) return;
+            current--;
+            goToSlide(current);
+            if (current === 0) {
+                setTimeout(() => { goToSlide(totalSlides, false); }, 700);
+            }
+        }
+        function startAutoplay() { autoplayInterval = setInterval(nextSlide, 5000);}
+        function stopAutoplay() { clearInterval(autoplayInterval);}
+        function resetAutoplay() { stopAutoplay(); startAutoplay();}
+        prevBtn.addEventListener('click', prevSlide);
+        nextBtn.addEventListener('click', nextSlide);
+        const carousel = document.getElementById('carousel');
+        carousel.addEventListener('mouseenter', stopAutoplay);
+        carousel.addEventListener('mouseleave', startAutoplay);
+        let touchStartX = 0, touchEndX = 0;
+        carousel.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; });
+        carousel.addEventListener('touchend', (e) => { touchEndX = e.changedTouches[0].screenX; handleSwipe(); });
+        function handleSwipe() {
+            if (touchStartX - touchEndX > 50) nextSlide();
+            if (touchEndX - touchStartX > 50) prevSlide();
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') prevSlide();
+            if (e.key === 'ArrowRight') nextSlide();
+        });
+        updateCardShadowsAndBlur();
+        if (totalSlides > 0) startAutoplay();
+    </script>
 </section>
 
-
-
-<script>
-  // --- ধাপ ১: আপনার সব রিভিউ এখানে একটি অ্যারেতে রাখুন ---
-  // আপনি এখানে যত খুশি তত রিভিউ (১০০ বা ১০০০) যোগ করতে পারবেন।
-  const testimonialData = [
-    {
-      imgSrc: "https://media.licdn.com/dms/image/v2/C4E03AQHOWKb6W2-M7Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516811639158?e=2147483647&v=beta&t=vbHksW5QYdSIhYCfDRP5R9Yoj1oVd5pjNxDmGdjnfnQ",
-      alt: "Alumni 1",
-      quote: "SEU gave me the foundation for my career. I'm grateful for the faculty and friends.",
-      name: "Karim Rahman",
-      details: "CSE, 2017"
-    },
-    {
-      imgSrc: "https://media.licdn.com/dms/image/v2/D4E03AQEY1cp_ikRDXw/profile-displayphoto-shrink_800_800/B4EZbNnZOyGcAc-/0/1747206379012?e=2147483647&v=beta&t=AArk-3gqVnY6URoE13f59dmlzlX5h3LwMh7R3eO-qhI",
-      alt: "Alumni 2",
-      quote: "Best decision I ever made was joining this varsity.",
-      name: "Nusrat Jahan",
-      details: "EEE, 2018"
-    },
-    {
-      imgSrc: "https://media.licdn.com/dms/image/v2/D5603AQEwBs5PH8__Lg/profile-displayphoto-shrink_400_400/B56ZYUTcRrHQAg-/0/1744097363575?e=2147483647&v=beta&t=GxNcNOrnm9bYhS9pdo3xBJ6P4QQ3VncqFQrQPXKzrGU",
-      alt: "Alumni 3",
-      quote: "I loved the campus culture and support system.",
-      name: "Tanvir Hossain",
-      details: "BBA, 2020"
-    },
-    {
-      imgSrc: "https://placehold.co/150x150/E2E8F0/4A5568?text=Alumni+4",
-      alt: "Alumni 4",
-      quote: "The professors were incredibly supportive and guided me at every step.",
-      name: "Fatima Ahmed",
-      details: "English, 2019"
-    },
-    {
-      imgSrc: "https://placehold.co/150x150/D1C4E9/4527A0?text=Alumni+5",
-      alt: "Alumni 5",
-      quote: "I gained practical skills that directly helped me in my job.",
-      name: "Rahim Sheikh",
-      details: "Law, 2021"
-    }
-    // ... আপনি চাইলে এখানে আরও ৯৫টি অবজেক্ট যোগ করতে পারেন
-  ];
-
-
-  // --- ধাপ ২: জাভাস্ক্রিপ্ট দিয়ে কার্ড তৈরি করা ---
-  const inner = document.getElementById('carousel-inner');
-  inner.innerHTML = ''; // প্রথমে ভেতরটা খালি করে নেওয়া হলো
-
-  // প্রতিটি রিভিউ ডেটার জন্য লুপ চালানো হচ্ছে
-  testimonialData.forEach(testimonial => {
-    // প্রতিটি রিভিউর জন্য HTML টেমপ্লেট
-    const cardHTML = `
-      <div class="w-full flex-shrink-0">
-        <div class="text-center px-6 py-8 bg-white/90 rounded-2xl transform transition-all duration-500 hover:scale-105 shadow-xl mx-3">
-          <img src="${testimonial.imgSrc}" alt="${testimonial.alt}" class="mx-auto w-24 h-24 rounded-full mb-5 object-cover">
-          <p class="text-lg font-medium italic mb-2 text-gray-700">"${testimonial.quote}"</p>
-          <div class="font-bold text-primary">${testimonial.name}</div>
-          <div class="text-sm text-gray-500">${testimonial.details}</div>
-        </div>
-      </div>
-    `;
-    
-    inner.innerHTML += cardHTML;
-  });
-
-
-  const totalSlides = inner.children.length; // ডায়নামিকভাবে মোট স্লাইডের সংখ্যা গণনা করা হচ্ছে
-  let current = 0;
-  
-  if (totalSlides > 0) { // যদি স্লাইড থাকে তবেই অ্যানিমেশন চলবে
-    setInterval(() => {
-      current = (current + 1) % totalSlides;
-      inner.style.transform = `translateX(-${current * 100}%)`;
-    }, 4500);
-  }
-</script>
 
 
     <?php include 'includes/footer.php'; ?>
