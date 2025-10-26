@@ -530,7 +530,7 @@
                         <div id="faq-4" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="faq-4">
                             <div class="px-6 pb-4 pt-0">
                                 <p class="text-gray-600 text-sm font-medium mb-2">
-                                No, registration is currently closed.
+                                No, registration is currently closed
                                 </p>
                             </div>
                         </div>
