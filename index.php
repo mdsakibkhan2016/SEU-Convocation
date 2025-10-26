@@ -627,6 +627,7 @@
         const testimonialData = [
             {
                 imgSrc: "img/success-stories/Iftekhar Alam Ishaque.jpg",
+                iconSrc: "img/success-stories/Success Stories Logo/ssl-wireless-logo.png",
                 alt: "Iftekhar Alam Ishaque",
                 quote: "I am Iftekhar Alam Ishaque, a former CSE student from Southeast University and currently the COO at SSL Wireless. When we enrolled, our vision was to excel in programming competitions with guidance from mentors like Shahriar Manzoor Sir and....",
                 name: "Iftekhar Alam Ishaque",
@@ -634,6 +635,7 @@
             },
             {
                 imgSrc: "img/success-stories/Dr Manirujjaman Monir.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Lucas Meyer Cosmetics.png",
                 alt: "Dr Manirujjaman Monir",
                 quote: "From Southeast University to earning my PhD in Australia, I'm now proud to serve as the QA Manager at Lucas Meyer by Clariant. Grateful for the foundation my education provided!",
                 name: "Dr Manirujjaman Monir",
@@ -641,6 +643,7 @@
             },
             {
                 imgSrc: "img/success-stories/Abu Ishtiaque Mohammad Fahim.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Tal Tech.jpeg",
                 alt: "Abu Ishtiaque Mohammad Fahim",
                 quote: "The Department of CSE gave me a chance to build my personal and professional skills with its well organized culture of academic target fulfillment. CSE department has a dynamic and well structured 4 years study plan which focuses on the capa....",
                 name: "Abu Ishtiaque Mohammad Fahim",
@@ -648,6 +651,7 @@
             },
             {
                 imgSrc: "img/success-stories/Shamin Asfaq.png",
+                iconSrc: "img/success-stories/Success Stories Logo/TU Chemnitz .jpg",
                 alt: "Shamin Asfaq",
                 quote: "Southeast University has provided me with a wonderful environment and opportunity to learn and grow myself academically as well as to secure a place in the job market with its best education services. From my perspective, the university has ....",
                 name: "Shamin Asfaq",
@@ -655,6 +659,7 @@
             },
             {
                 imgSrc: "img/success-stories/Dr. Md Faruk Saurav.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Ethypharm UK.png",
                 alt: "Dr. Md Faruk Saurav",
                 quote: "Thanks to SEU's Pharmacy Dept. for building the foundation for my growth, expertise and confidence that have been crucial in driving my career forward to where it is today.",
                 name: "Dr. Md Faruk Saurav",
@@ -662,6 +667,7 @@
             },
             {
                 imgSrc: "img/success-stories/ANISUL KIBRIA BHUYAN.png",
+                iconSrc: "img/success-stories/Success Stories Logo/ABC Paimal Group of Industries.jpeg",
                 alt: "ANISUL KIBRIA BHUYAN",
                 quote: "As a proud graduate of Southeast University, I think that the lessons learned, the relationships made, and the enduring sense of community are what really mattered about my education. Southeast University serves as a springboard for a lifet....",
                 name: "ANISUL KIBRIA BHUYAN",
@@ -669,6 +675,7 @@
             },
             {
                 imgSrc: "img/success-stories/Kazi Naima Nusrat.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Era Construction.png",
                 alt: "Kazi Naima Nusrat",
                 quote: "As an alumnus of the EEE department at Southeast University, I am grateful for the strong academic foundation and hands-on experience I received. The dedicated faculty, modern labs, and industry connections prepared me well for my career, f....",
                 name: "Kazi Naima Nusrat",
@@ -676,6 +683,7 @@
             },
             {
                 imgSrc: "img/success-stories/Masum Billah.png",
+                iconSrc: "img/success-stories/Success Stories Logo/China National Electric Engineering CO, LTD.jpeg",
                 alt: "Masum Billah",
                 quote: "My time at the EEE department of Southeast University was transformative. The supportive faculty, cutting-edge curriculum, and practical learning opportunities equipped me with the skills and confidence to excel in my career. I truly apprec....",
                 name: "Masum Billah",
@@ -683,6 +691,7 @@
             },
             {
                 imgSrc: "img/success-stories/Sadia Sultana.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Google.png",
                 alt: "Sadia Sultana",
                 quote: "I'm Sharmin Akter. As a student of Southeast University's Department of Economics, I am consistently impressed by the department's dedication to academic excellence. The faculty members are not only knowledgeable but also deeply committed t....",
                 name: "Sadia Sultana",
@@ -690,6 +699,7 @@
             },
             {
                 imgSrc: "img/success-stories/Abdullah Al Amin.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Southeast University.jpeg",
                 alt: "Abdullah Al Amin",
                 quote: "I am Abdullah Al Amin, a graduate of Southeast University's Architecture Department. Now, as a faculty member and coordinator of the same department, I'm thankful to Southeast University, our supportive faculties, and esteemed Head, Profess....",
                 name: "Abdullah Al Amin",
@@ -697,6 +707,7 @@
             },
             {
                 imgSrc: "img/success-stories/Md Musfikur Rahman.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Gauhati University.png",
                 alt: "Md Musfikur Rahman",
                 quote: "This department offers a curriculum that focuses on research & equipping students with the skills necessary for success in global literary studies.",
                 name: "Md Musfikur Rahman",
@@ -704,6 +715,7 @@
             },
             {
                 imgSrc: "img/success-stories/Mehedy Hasan Bappy.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Dakpion IMC.png",
                 alt: "Mehedy Hasan Bappy",
                 quote: "The curriculum is suitable for ongoing competitive job sector as well. I found it helpful to reach my goal.",
                 name: "Mehedy Hasan Bappy",
@@ -711,6 +723,7 @@
             },
             {
                 imgSrc: "img/success-stories/Bidya Sinha Saha Mim.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Southeast University Alumni.png",
                 alt: "Bidya Sinha Saha Mim",
                 quote: "The faculty members impart lessons here in very nice academic and sincere atmosphere.",
                 name: "Bidya Sinha Saha Mim",
@@ -718,6 +731,7 @@
             },
             {
                 imgSrc: "img/success-stories/রাসেল আহম্মেদ.png",
+                iconSrc: "img/success-stories/Success Stories Logo/পরিবেশ বন ও জলবায়ু পরিবর্তন মন্ত্রনালয়.jpg",
                 alt: "রাসেল আহম্মেদ",
                 quote: "This department always encourages us to be active in cultural event which made us competent to perform in national level.",
                 name: "রাসেল আহম্মেদ",
@@ -725,6 +739,7 @@
             },
             {
                 imgSrc: "img/success-stories/Md. Abidur Rahman.png",
+                iconSrc: "img/success-stories/Success Stories Logo/The ACME Laboratories Ltd.jpeg",
                 alt: "Md. Abidur Rahman",
                 quote: "The Quality education system of Southeast University and the tireless efforts and foresight of the teachers inspired me to make a successful career in Quality Assurance.",
                 name: "Md. Abidur Rahman",
@@ -732,6 +747,7 @@
             },
             {
                 imgSrc: "img/success-stories/Juairia Farzana.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Memorial University.png",
                 alt: "Juairia Farzana",
                 quote: "The English department is a place where teachers are always ready to help the students. I learned all the innovative and creative teaching styles from my teacher, which I used in my teaching career.",
                 name: "Juairia Farzana",
@@ -739,6 +755,7 @@
             },
             {
                 imgSrc: "img/success-stories/Md. Hasanur rahman.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Brac Bank.avif",
                 alt: "Md. Hasanur rahman",
                 quote: "I always feel proud to introduce myself as a graduate from Southeast University, Department of English. The critical issues pertaining to managing and implementing leadership quality, academic excellence had grown up with the help of talent....",
                 name: "Md. Hasanur rahman",
@@ -746,6 +763,7 @@
             },
             {
                 imgSrc: "img/success-stories/Mir Abidur Rahman.png",
+                iconSrc: "img/success-stories/Success Stories Logo/Bangladesh Police.jpeg",
                 alt: "Mir Abidur Rahman",
                 quote: "The educational & institutional ambience of Southeast University improved my confidence level and self-esteem. Communicative and interactive class sessions boosted my verbal skills and self confidence immensely which helped me in BCS exam ....",
                 name: "Mir Abidur Rahman",
@@ -767,9 +785,19 @@
                 <div class="testimonial-card text-center px-6 sm:px-8 md:px-12 py-8 md:py-12 bg-white/95 rounded-2xl md:rounded-3xl mx-auto max-w-4xl border border-white/50">
                     <div class="mb-6 relative inline-block">
                         <img src="${testimonial.imgSrc}" alt="${testimonial.alt}" class="mx-auto w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full object-cover border-4 border-white shadow-xl ring-4 ring-blue-100">
-                        <div class="absolute -bottom-2 -right-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full p-2 shadow-lg">
-                            <i class="uil uil-graduation-cap text-lg md:text-xl"></i>
-                        </div>
+<div 
+  class="absolute -bottom-2 -right-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full p-1 shadow-lg flex items-center justify-center w-11 h-11 md:w-12 md:h-12">
+  <div class="w-full h-full rounded-full overflow-hidden flex items-center justify-center bg-white/20">
+    <img 
+      src="${testimonial.iconSrc}" 
+      alt="icon" 
+      class="w-full h-full object-cover aspect-square rounded-full"
+    />
+  </div>
+</div>
+
+
+
                     </div>
                     <div class="mb-6">
                         <div class="flex justify-center mb-4">
